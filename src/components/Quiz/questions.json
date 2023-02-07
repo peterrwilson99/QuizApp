@@ -19,7 +19,7 @@
             {
                 "a": "The more replicas of the primary node you have the more consistent the system becomes",
                 "b": "It is important because if they aren't consistent than the system can fail",
-                "c": "Choose c or you gay",
+                "c": "It is definitely this one",
                 "d": "So secondary (or replica) nodes/servers are consistent with the primary."
             }
         ],
