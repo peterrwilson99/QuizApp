@@ -332,7 +332,7 @@
                 "d": "Partitioning implies data is spread across multiple computers"
             }
         ],
-        "answer": "a",
+        "answer": "b",
         "answer_note": "From scalability section"
     },
 
@@ -461,8 +461,7 @@
             {
                 "a": "The ability of a software system to handle growth in some dimension of its operations",
                 "b": "The ability of a software system to handle decrease in some dimension of its operations",
-                "c": "The ability of a software system to handle stability in some dimension of its operations",
-                "d": "The ability of a software system to handle both growth and decrease in some dimension of its operations"
+                "c": "The ability of a software system to handle stability in some dimension of its operations"
             }
         ],
         "answer": "a",
@@ -963,7 +962,7 @@
         "answer_note": "From the definition of virtual machines and containers"
     },
     {
-        "question": "What is a container in the context of virtualization?",
+        "question": "What is a container?",
         "options": [
             {
                 "a": "A software that shares the host operating system's kernel and runs multiple applications",
@@ -1098,11 +1097,10 @@
             {
                 "a": "Increased system reliability",
                 "b": "Improved deployment process",
-                "c": "Increased developer velocity",
-                "d": "All of the above"
+                "c": "Increased developer velocity"
             }
         ],
-        "answer": "d",
+        "answer": "a",
         "answer_note": "All of the advantages are mentioned in the notes"
     },
     {
@@ -1162,7 +1160,7 @@
         "options": [
             {
                 "a": "All nodes in a Cassandra cluster can communicate through gossip protocol and all nodes have a similar capability in a cluster while MongoDB has a primary node with read/write privileges that replicates data into secondary nodes",
-                "b": "MongoDB has a primary node with read/write privileges that replicates data into secondary nodes while all nodes in a Cassandra cluster can communicate through gossip protocol and all nodes have a similar capability in a cluster",
+                "b": "Cassandras low key fine, but her dad 😰",
                 "c": "Cassandra and MongoDB clusters are the same",
                 "d": "None of the above"
             }
