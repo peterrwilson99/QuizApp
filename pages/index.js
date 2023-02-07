@@ -19,7 +19,6 @@ export default function Index() {
         </Typography>
         <QuizHome />
       </Container>
-      <Copyright />
     </main>
   );
 }

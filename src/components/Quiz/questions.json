@@ -19,7 +19,7 @@
             {
                 "a": "The more replicas of the primary node you have the more consistent the system becomes",
                 "b": "It is important because if they aren't consistent than the system can fail",
-                "c": "its definitely c",
+                "c": "Choose c or you gay",
                 "d": "So secondary (or replica) nodes/servers are consistent with the primary."
             }
         ],
@@ -454,6 +454,213 @@
         ],
         "answer": "a",
         "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is scalability in software systems?",
+        "options": [
+            {
+                "a": "The ability of a software system to handle growth in some dimension of its operations",
+                "b": "The ability of a software system to handle decrease in some dimension of its operations",
+                "c": "The ability of a software system to handle stability in some dimension of its operations",
+                "d": "The ability of a software system to handle both growth and decrease in some dimension of its operations"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the 'Basics of Scalability' section"
+    },
+    {
+        "question": "What are the three dimensions of scalability?",
+        "options": [
+            {
+                "a": "Number of user requests the system can handle, amount of data the system can handle, speed",
+                "b": "Number of user requests the system can handle, amount of data the system can handle, value that can be derived from the data a system stores",
+                "c": "Number of user requests the system can handle, performance, value that can be derived from the data a system stores",
+                "d": "Number of user requests the system can handle, amount of data the system can handle, usability"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From the 'Dimensions of Scalability' section"
+    },
+    {
+        "question": "What are some of the negative repercussions of building a scalable system that must be understood when establishing the design?",
+        "options": [
+            {
+                "a": "Cost, operability, usability, replica consistency",
+                "b": "Performance, operability, usability, replica consistency",
+                "c": "Cost, performance, operability, replica consistency",
+                "d": "Cost, performance, operability, usability"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From the 'Scalability Tradeoffs' section"
+    },
+    {
+        "question": "What is a common solution for scalability in system design?",
+        "options": [
+            {
+                "a": "Cloud storage, NoSQL databases",
+                "b": "Caching, NoSQL databases",
+                "c": "Scale up/out, Load Balancing, Lightweight applications, Cloud storage, Caching",
+                "d": "Load Balancing, Lightweight applications, Cloud storage"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the 'Frequent solutions to scalability in design' section"
+    },
+    {
+        "question": "What is the purpose of the supermarket case study mentioned in the notes?",
+        "options": [
+            {
+                "a": "To show the importance of scalability in software systems",
+                "b": "To provide an example of poor system design",
+                "c": "To provide an example of good system design",
+                "d": "To provide an example of superior system design"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the 'Supermarket Case Study' section"
+    },
+    {
+        "question": "What is vertical scaling?",
+        "options": [
+            {
+                "a": "Adding more resources to a single system to handle increased demand.",
+                "b": "Adding more nodes to a system.",
+                "c": "A combination of vertical and horizontal scaling.",
+                "d": "Removing resources from a system to reduce costs."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From vertical scaling section"
+    },
+    {
+        "question": "What is horizontal scaling?",
+        "options": [
+            {
+                "a": "Adding more resources to a single system to handle increased demand.",
+                "b": "Adding more nodes to a system.",
+                "c": "A combination of vertical and horizontal scaling.",
+                "d": "Removing resources from a system to reduce costs."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From horizontal scaling section"
+    },
+    {
+        "question": "What is a stateless application?",
+        "options": [
+            {
+                "a": "An application that does not save client data generated in one session for use in the next session.",
+                "b": "An application that saves client data generated in one session for use in the next session.",
+                "c": "A non-scalable application.",
+                "d": "A complex application architecture."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From stateless application section"
+    },
+    {
+        "question": "What are the benefits of horizontal scaling?",
+        "options": [
+            {
+                "a": "Little to no downtime due to single point of failure, resiliency through service redundancy, and automatic scaling when necessary.",
+                "b": "Downtime due to single point of failure, lack of resiliency through service redundancy, and manual scaling when necessary.",
+                "c": "Downtime due to multiple points of failure, lack of resiliency through service redundancy, and automatic scaling when necessary.",
+                "d": "Downtime due to multiple points of failure, resiliency through service redundancy, and manual scaling when necessary."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From why horizontal scaling section"
+    },
+    {
+        "question": "What are the steps to achieve effective horizontal scaling?",
+        "options": [
+            {
+                "a": "Making an application stateful on the server and creating self-contained logical blocks.",
+                "b": "Making an application stateless on the server and creating self-contained logical blocks.",
+                "c": "Making an application stateless on the client and creating self-contained logical blocks.",
+                "d": "Making an application stateful on the client and creating self-contained logical blocks."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From achieving effective horizontal scaling section"
+    },
+    {
+        "question": "Which of the following is the most preferred type of scaling for a small company that does not expect users/data to increase?",
+        "options": [
+            {
+                "a": "Vertical scaling",
+                "b": "Horizontal scaling",
+                "c": "Diagonal scaling",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "yep"
+    },
+    {
+        "question": "What is cloud computing?",
+        "options": [
+            {
+                "a": "The practice of using large groups of remote servers to store and access applications and compute data.",
+                "b": "A method of saving applications and data on a local server or personal computer.",
+                "c": "A system that is not scalable.",
+                "d": "A type of data storage that is not cost-effective."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Definition of cloud computing."
+    },
+    {
+        "question": "What are the benefits of private cloud deployment model?",
+        "options": [
+            {
+                "a": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "b": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "c": "Shared with general public and owned by a third-party cloud service provider.",
+                "d": "Combination of cloud deployment models."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Private cloud deployment model characteristics."
+    },
+    {
+        "question": "What are the benefits of public cloud deployment model?",
+        "options": [
+            {
+                "a": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "b": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "c": "Combination of cloud deployment models.",
+                "d": "Shared with general public and owned by a third-party cloud service provider."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Public cloud deployment model characteristics."
+    },
+    {
+        "question": "What are the benefits of hybrid cloud deployment model?",
+        "options": [
+            {
+                "a": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "b": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "c": "Combination of cloud deployment models, secure & safe, cost-effective, flexible and scalable, and easy transition.",
+                "d": "Shared with general public and owned by a third-party cloud service provider."
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Hybrid cloud deployment model characteristics."
+    },
+    {
+        "question": "What is the purpose of community cloud?",
+        "options": [
+            {
+                "a": "Shared with general public and owned by a third-party cloud service provider.",
+                "b": "Combination of cloud deployment models, secure & safe, cost-effective, flexible and scalable, and easy transition.",
+                "c": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "d": "Shared with other organizations with similar interests."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Community cloud purpose."
     }
-
 ]
