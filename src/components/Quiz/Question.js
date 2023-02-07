@@ -33,6 +33,7 @@ function Question(props) {
                         <FormControlLabel
                             key={key}
                             value={key}
+                            className="my-1"
                             control={<Radio />}
                             label={question.options[0][key]}
                         />

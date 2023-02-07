@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Container from '@mui/material/Container';
-import { Box, Button, Checkbox, FormControlLabel, IconButton, Paper, TextField, Typography } from '@mui/material';
+import { Box, Button, Checkbox, FormControlLabel, IconButton, Paper, TextField, Typography, useMediaQuery, useTheme } from '@mui/material';
 import Quiz from './Quiz';
 import questions from "./questions.json"
 import CloseIcon from '@mui/icons-material/Close';
@@ -8,8 +8,10 @@ import CloseIcon from '@mui/icons-material/Close';
 function QuizHome() {
     const [selectedQuestions, setSelectedQuestions] = useState(questions);
     const [numOfQuestions, setNumOfQuestions] = useState(questions.length);
-    const [singlePageQuestion, setSinglePageQuestion] = useState(true);
+    const [singlePageQuestion, setSinglePageQuestion] = useState(false);
     const [startQuiz, setStartQuiz] = useState(false);
+    const theme = useTheme();
+    const smallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
     const handleNumQuestionChange = (event) => {
         const numQs = event.target.value;
@@ -34,7 +36,7 @@ function QuizHome() {
         setStartQuiz(!startQuiz);
     }
     return (
-        <Paper elevation={8} sx={{borderRadius: 4}} className="p-8">
+        <Paper elevation={8} sx={{borderRadius: 4}} className={smallScreen ? "p-4" : "p-8"}>
             {startQuiz ?
                 <div className="text-right">
                     <IconButton aria-label="exit" component="label" onClick={handleStartQuizChange} >
@@ -67,7 +69,7 @@ function QuizHome() {
                         type="number"
                         value={numOfQuestions}
                         onChange={handleNumQuestionChange}
-                        className="w-1/3"
+                        className={smallScreen ? "w-full" : "w-1/3"}
                         InputProps={{
                             inputProps: {
                                 min: 1, max: questions.length
