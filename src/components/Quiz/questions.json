@@ -1,0 +1,459 @@
+[
+    {
+        "question": "What is the tradeoff between Functionality and Scalability?",
+        "options": [
+            {
+                "a": "A system may be able to scale to fit more users if there are less features/services in the overall system",
+                "b": "System will often degrade when the demand for the system increases",
+                "c": "As systems get larger, it becomes difficult for humans to operate them, so autonomic computing is a solution",
+                "d": "Your mother"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Why is replica consistency important in a scalable/distributed system?",
+        "options": [
+            {
+                "a": "The more replicas of the primary node you have the more consistent the system becomes",
+                "b": "It is important because if they aren't consistent than the system can fail",
+                "c": "its definitely c",
+                "d": "So secondary (or replica) nodes/servers are consistent with the primary."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "High scalability is obtainable if you have more network partitions. What issue does this cause with replica consistency and why?",
+        "options": [
+            {
+                "a": "The more partition you have the more inconsistent the system becomes",
+                "b": "It reduces replica consistency because there are more partitions, and it is very difficult/costly to ensure that all nodes are exactly consistent, or even not possible",
+                "c": "The system becomes slower overall because of the extra partitions",
+                "d": "Idk ask chatgpt",
+                "e": "After a certain amount of partitions, data in each partition is different"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which statement is true regarding Vertical and Horizontal Scaling?",
+        "options": [
+            {
+                "a": "In Vertical scaling you add more nodes",
+                "b": "In Horizontal scaling you are adding more resources via system hardware, such as changing the CPU",
+                "c": "In vertical scaling the system is still operable while being scaled",
+                "d": "In Horizontal scaling the system is still operable while being scaled"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "True or False: Two of many reasons to choose horizontal scaling over vertical scaling are that horizontal scaling allows no downtime while resources are being added, and if a resource fails your system can remain online and depend on the other resources",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A stateless server...",
+        "options": [
+            {
+                "a": "saves client data generated in one session for use in the next",
+                "b": "Is a server that cannot be horizontally scaled",
+                "c": "doesn't save client data generated in one session for use in the next",
+                "d": "Is a server that cannot be vertically scaled"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Cloud computing is the practice of using large groups of local servers hosted on the internet to store and access applications and compute data, instead of saving them on a local server or personal computer",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which type of Cloud has the highest level of security?",
+        "options": [
+            {
+                "a": "Public Cloud",
+                "b": "Private Cloud",
+                "c": "Community Cloud",
+                "d": "Hybrid Cloud"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is the biggest disadvantage to cloud computing?",
+        "options": [
+            {
+                "a": "Limited storage capacity",
+                "b": "Inefficient collaborations",
+                "c": "Cost",
+                "d": "Data security"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A hypervisor is the software or firmware layer that enables multiple operating systems to run side-by-side, all with access to the same physical server resources",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A VM uses the host OS's kernel",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Containers have their own file system but not a kernel",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which statement is true regarding Containers and VMs is true?",
+        "options": [
+            {
+                "a": "VMs have a copy of the whole OS",
+                "b": "VMs are portable",
+                "c": "Containers have a copy of the whole OS",
+                "d": "VMs are slightly smaller than containers"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "All containers on a particular host machine must be designed to run on the same kind of OS. Containers based on a different OS will require a different host",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Images are read-only and cannot be modified, whereas containers can be modified",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "If all the processes doing the system work can all work independently of each other than it is still considered a distributed system",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A container can be connected to the outside network, but the outside network cannot get inside the container",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The none network...",
+        "options": [
+            {
+                "a": "is able to share the host's network stack, removing isolation",
+                "b": "disconnects the container from the network, making it isolated",
+                "c": "is able to communicate to any other network resources",
+                "d": "should never be used in a distributed system"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The host network...",
+        "options": [
+            {
+                "a": "is able to share the host's network stack, removing isolation",
+                "b": "disconnects the container from the network, making it isolated",
+                "c": "is not able to communicate to any other network resources",
+                "d": "should always be used in a distributed system"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The CAP thereom states that a distributed system cannot be strictly consistent, highly available and fault tolerant at the same time.",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "CAP consistency promises that every replica of the same logical value, spread across nodes in a distributed system, has the same exact value at all times.",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "ACID consistency is all about database rules, so if a schema declares that a value must be unique, then a consistent system will enforce uniqueness of that value for all operations",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which of the following is true about partition tolerance?",
+        "options": [
+            {
+                "a": "A system that is partition-tolerant cannot sustain any amount of network failure, or else the entire network will fail",
+                "b": "Data records are not replicated across nodes",
+                "c": "internal pointer variable",
+                "d": "A system that is partition-tolerant can sustain any amount of network failure that does not result in a failure of the entire network"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A monolithic architecture can have multiple codebases",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "SQL databases are only vertically scalable, but NoSQL databases are horizontally scalable as well because of sharding and replication",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is the difference between sharding and partitioning a database?",
+        "options": [
+            {
+                "a": "Shards reside on a single server",
+                "b": "Shards can reside on different servers",
+                "c": "Partitions can reside on different servers",
+                "d": "Partitioning implies data is spread across multiple computers"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Key-value databases are highly partionable and are best in horizontal scaling",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "In a column oriented databases, each table that is broken up by its column must have a unique identifier that exists in all tables that were sliced",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database is useful for a social networking system whose only purpose is to connect people?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database is useful for a content management system?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database should you avoid if you need to write complex queries?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "How does MongoDB achieve redundancy and high availability?",
+        "options": [
+            {
+                "a": "By using a monolithic architecture",
+                "b": "It uses partitioning",
+                "c": "MongoDB cannot achieve redundancy and high availability",
+                "d": "It uses replica sets to replicate data to multiple nodes"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "In MongoDB, secondary nodes can receive writes",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What does the primary oplog in MongoDB do?",
+        "options": [
+            {
+                "a": "Creates seconday oplogs",
+                "b": "Contains operations that the secondary nodes can copy and apply",
+                "c": "Creates seconday nodes",
+                "d": "Write data to the correct partition"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is a disadvantage to sharding?",
+        "options": [
+            {
+                "a": "Setup heavy",
+                "b": "Not consistent",
+                "c": "Lowers system performance",
+                "d": "Low storage capacity"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    }
+
+]
