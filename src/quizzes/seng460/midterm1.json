@@ -325,19 +325,6 @@
         "answer_note": "Whaling is a targeted phishing attack on senior executives or high-profile targets."
     },
     {
-        "question": "What is Cryptoware?",
-        "options": [
-            {
-                "a": "A type of malware that encrypts the files on an infected computer or network, making them inaccessible unless a ransom is paid.",
-                "b": "A type of malware that hides itself in an image or other file format.",
-                "c": "A type of malware that infects computer systems by exploiting vulnerabilities in the operating system or software applications.",
-                "d": "A type of malware that steals sensitive information, such as passwords and credit card numbers, from the infected computer."
-            }
-        ],
-        "answer": "a",
-        "answer_note": "From scalability section"
-    },
-    {
         "question": "What is Ransomware?",
         "options": [
             {
@@ -1040,7 +1027,7 @@
         "answer_note": "A vulnerability is a weakness or flaw that exists in a system."
     },
     {
-        "question": "What is an exploit in the context of computer security?",
+        "question": "What is an incident in the context of computer security?",
         "options": [
             {
                 "a": "A successful attack on a system",
@@ -1188,7 +1175,7 @@
             {
                 "a": "Ignore traffic originating from places it shouldn't",
                 "b": "Rely on the victim's defense mechanisms",
-                "c": "Enable anti-spoofing and block traffic originating from places it shouldn’t",
+                "c": "Enable anti-spoofing and block traffic originating from places it shouldn\u2019t",
                 "d": "Allow all traffic regardless of origin"
             }
         ],
@@ -1518,7 +1505,7 @@
             }
         ],
         "answer": "a",
-        "answer_note": "Web content filtering allows employers to determine which sites and categories of sites will/won’t be permitted"
+        "answer_note": "Web content filtering allows employers to determine which sites and categories of sites will/won\u2019t be permitted"
     },
     {
         "question": "Which security method determines whether emails should be let through in the network?",
@@ -1570,7 +1557,7 @@
             }
         ],
         "answer": "a",
-        "answer_note": "The main purpose of using a VPN is to provide secure access to other systems by encrypting the traffic while it is in the “tunnel”."
+        "answer_note": "The main purpose of using a VPN is to provide secure access to other systems by encrypting the traffic while it is in the \u201ctunnel\u201d."
     },
     {
         "question": "What is a honeypot in the context of computer security?",
