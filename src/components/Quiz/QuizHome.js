@@ -2,10 +2,9 @@ import React, { useState } from 'react'
 import Container from '@mui/material/Container';
 import { Box, Button, Checkbox, FormControlLabel, IconButton, Paper, TextField, Typography, useMediaQuery, useTheme } from '@mui/material';
 import Quiz from './Quiz';
-import questions from "./questions.json"
 import CloseIcon from '@mui/icons-material/Close';
 
-function QuizHome() {
+function QuizHome({ questions, quizName }) {
     const [selectedQuestions, setSelectedQuestions] = useState(questions);
     const [numOfQuestions, setNumOfQuestions] = useState(questions.length);
     const [singlePageQuestion, setSinglePageQuestion] = useState(false);
@@ -57,7 +56,7 @@ function QuizHome() {
                   <Typography
                     variant="h5"
                     gutterBottom>
-                    Welcome to the SENG 468 Midterm 1 Study Tool
+                    Welcome to the {quizName} Study Tool
                   </Typography>
                   <Typography
                     variant="p"

@@ -7,6 +7,7 @@ import { CacheProvider } from '@emotion/react';
 import {lightTheme, darkTheme } from '../src/theme'
 import '../src/globals.css'
 import createEmotionCache from '../src/createEmotionCache';
+import Navigation from '../src/components/Navigation';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -33,6 +34,7 @@ export default function MyApp(props) {
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
+          <Navigation />
           <Component {...pageProps} />
         </ThemeProvider>
       </CacheProvider>

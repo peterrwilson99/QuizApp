@@ -1,0 +1,2056 @@
+[
+    {
+        "question": "What is the largest transfer of wealth in history due to cybercrime?",
+        "options": [
+            {
+                "a": "Theft of physical property",
+                "b": "Theft of financial assets",
+                "c": "Theft of intellectual property",
+                "d": "Theft of personal information"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From statement: 'Theft of intellectual property due to cybercrime is the single largest transfer of wealth in history'"
+    },
+    {
+        "question": "What is happening with the frequency and sophistication of cybercrime incidents?",
+        "options": [
+            {
+                "a": "Decreasing",
+                "b": "Staying the same",
+                "c": "Increasing",
+                "d": "Peaks and valleys"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From statement: 'Incident frequency and sophistication are increasing'"
+    },
+    {
+        "question": "Are any organizations immune to cyber attacks?",
+        "options": [
+            {
+                "a": "Yes",
+                "b": "No",
+                "c": "Sometimes",
+                "d": "It depends"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From statement: 'No organization is immune to attacks'"
+    },
+    {
+        "question": "What are organizations judged on in relation to cyber attacks?",
+        "options": [
+            {
+                "a": "Their ability to prevent attacks",
+                "b": "Their ability to detect attacks",
+                "c": "Their ability to respond to attacks",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From statement: 'Organization are judged not only on their ability to prevent but to also detect and respond'"
+    },
+    {
+        "question": "Who are considered 'bad guys' in the context of cyber attacks?",
+        "options": [
+            {
+                "a": "Juveniles, curious people, and insiders",
+                "b": "Insiders and hacktivists",
+                "c": "Organized crime and nation states",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From statement: 'Threat actors: Bad guys, including juveniles, curious people, insiders, hacktivists, organized crime, nation states, and cyber terrorists'"
+    },
+    {
+        "question": "What motivates juveniles to engage in cyber attacks?",
+        "options": [
+            {
+                "a": "Financial gain",
+                "b": "Retribution",
+                "c": "Curiousity",
+                "d": "Political beliefs"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From statement: 'Juveniles: Curious people'"
+    },
+    {
+        "question": "What motivates insiders to engage in cyber attacks?",
+        "options": [
+            {
+                "a": "Financial gain",
+                "b": "Retribution",
+                "c": "Curiousity",
+                "d": "Political beliefs"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From statement: 'Insiders: Do it for profit or retribution'"
+    },
+    {
+        "question": "What is the level of sophistication of hacktivists?",
+        "options": [
+            {
+                "a": "Low",
+                "b": "High",
+                "c": "Medium-high",
+                "d": "Minimum"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From statement: 'Hacktivists: Medium-high sophistication'"
+    },
+    {
+        "question": "What motivates organized crime to engage in cyber attacks?",
+        "options": [
+            {
+                "a": "Leverage, fraud, and financial gain",
+                "b": "Retribution and political beliefs",
+                "c": "Surveillance and political leverage",
+                "d": "Acts of terrorism"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From statement: 'Organized crime: Do it for leverage, fraud, financial gain'"
+    },
+    {
+        "question": "What motivates nation states to engage in cyber attacks?",
+        "options": [
+            {
+                "a": "Leverage, fraud, and financial gain",
+                "b": "Retribution and political beliefs",
+                "c": "Surveillance and political leverage",
+                "d": "Acts of terrorism"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From statement: 'Nation states: Do it for surveillance, political leverage'"
+    },
+    {
+        "question": "What motivates cyber terrorists to engage in cyber attacks?",
+        "options": [
+            {
+                "a": "Leverage, fraud, and financial gain",
+                "b": "Retribution and political beliefs",
+                "c": "Surveillance and political leverage",
+                "d": "Acts of terrorism"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From statement: 'Cyber terrorists: Do it because of politics and acts of terrorism'"
+    },
+    {
+        "question": "What is one reason why organizations may be targeted by cyber criminals?",
+        "options": [
+            {
+                "a": "To gain economic advantage",
+                "b": "To access personal data for identity theft",
+                "c": "To disrupt operations",
+                "d": "To make a political statement"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Reason 1 from the list provided"
+    },
+    {
+        "question": "What is a primary motivation for cyber criminals targeting organizations?",
+        "options": [
+            {
+                "a": "Financial gain",
+                "b": "To cause physical damage",
+                "c": "To advance a political agenda",
+                "d": "To gather intelligence"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Reason 1 from the list provided"
+    },
+    {
+        "question": "What is the main direct impact of cyber attacks on businesses?",
+        "options": [
+            {
+                "a": "Loss of productivity",
+                "b": "Financial loss",
+                "c": "Impact on clients/customers",
+                "d": "Litigation/regulatory"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the given information"
+    },
+    {
+        "question": "What is the main indirect impact of cyber attacks on businesses?",
+        "options": [
+            {
+                "a": "Financial loss",
+                "b": "Brand/reputation",
+                "c": "Litigation/regulatory",
+                "d": "Disruption of operations"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From the given information"
+    },
+    {
+        "question": "What is the definition of Phishing?",
+        "options": [
+            {
+                "a": "A type of social engineering attack where the attacker attempts to trick the victim into giving away sensitive information such as passwords and credit card numbers.",
+                "b": "A type of attack where the attacker tries to exploit vulnerabilities in software to gain unauthorized access.",
+                "c": "A type of attack where the attacker launches a massive amount of traffic to overload a website or network and make it unavailable.",
+                "d": "A type of attack where the attacker infects a computer with malware to gain control of it."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Phishing is a social engineering attack where the attacker tries to trick the victim into giving away sensitive information."
+    },
+    {
+        "question": "What is the definition of Malware?",
+        "options": [
+            {
+                "a": "A type of software that is intended to harm or exploit a computer system or network.",
+                "b": "A type of social engineering attack where the attacker attempts to trick the victim into giving away sensitive information such as passwords and credit card numbers.",
+                "c": "A type of attack where the attacker tries to exploit vulnerabilities in software to gain unauthorized access.",
+                "d": "A type of attack where the attacker launches a massive amount of traffic to overload a website or network and make it unavailable."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Malware is a type of software that is intended to harm or exploit a computer system or network."
+    },
+    {
+        "question": "What is the definition of DDoS?",
+        "options": [
+            {
+                "a": "A type of attack where the attacker tries to exploit vulnerabilities in software to gain unauthorized access.",
+                "b": "A type of social engineering attack where the attacker attempts to trick the victim into giving away sensitive information such as passwords and credit card numbers.",
+                "c": "A type of attack where the attacker launches a massive amount of traffic to overload a website or network and make it unavailable.",
+                "d": "A type of software that is intended to harm or exploit a computer system or network."
+            }
+        ],
+        "answer": "c",
+        "answer_note": "DDoS is a type of attack where the attacker launches a massive amount of traffic to overload a website or network and make it unavailable."
+    },
+    {
+        "question": "What is the definition of SQL Inject?",
+        "options": [
+            {
+                "a": "A type of attack where the attacker injects malicious code into a SQL database to gain unauthorized access or to manipulate data.",
+                "b": "A type of social engineering attack where the attacker attempts to trick the victim into giving away sensitive information such as passwords and credit card numbers.",
+                "c": "A type of attack where the attacker launches a massive amount of traffic to overload a website or network and make it unavailable.",
+                "d": "A type of software that is intended to harm or exploit a computer system or network."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "SQL Inject is a type of attack"
+    },
+    {
+        "question": "What is smishing?",
+        "options": [
+            {
+                "a": "A phishing attack that occurs through SMS text message",
+                "b": "A type of malware that infects systems through social media",
+                "c": "An attack that occurs through malicious advertisements",
+                "d": "A phishing attack that occurs through voice calls"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the attack methods section"
+    },
+    {
+        "question": "What is vishing?",
+        "options": [
+            {
+                "a": "A phishing attack that occurs through SMS text messages",
+                "b": "A type of malware that infects systems through social media",
+                "c": "An attack that occurs through malicious advertisements",
+                "d": "A phishing attack that occurs through voice calls"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From the attack methods section"
+    },
+    {
+        "question": "What is social engineering?",
+        "options": [
+            {
+                "a": "An attack that occurs through malicious advertisements",
+                "b": "A type of malware that infects systems through social media",
+                "c": "An attack that manipulates individuals into divulging confidential information",
+                "d": "A phishing attack that occurs through SMS text messages"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the attack methods section"
+    },
+    {
+        "question": "What is social engineering in the context of cyber security?",
+        "options": [
+            {
+                "a": "A technique to increase the size of an organization's network.",
+                "b": "A type of attack that uses psychological manipulation to trick individuals into divulging confidential information or performing actions that put an organization's network and data at risk",
+                "c": "A type of encryption used to secure data stored in the cloud.",
+                "d": "A method to improve the performance of an organization's website."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Social engineering involves tricking individuals into revealing sensitive information or performing actions that can compromise an organization's network and data."
+    },
+    {
+        "question": "What is spear phishing?",
+        "options": [
+            {
+                "a": "A phishing attack that occurs on weekends",
+                "b": "A targeted phishing attack that uses personal information to make the message more convincing",
+                "c": "A phishing attack that targets a specific company",
+                "d": "A phishing attack that targets a specific person"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Spear phishing is a targeted phishing attack that uses personal information to make the message more convincing."
+    },
+    {
+        "question": "What is whaling?",
+        "options": [
+            {
+                "a": "A phishing attack that targets a specific person",
+                "b": "A phishing attack that occurs on holidays",
+                "c": "A phishing attack that targets a specific city",
+                "d": "A targeted phishing attack on senior executives or high-profile targets"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Whaling is a targeted phishing attack on senior executives or high-profile targets."
+    },
+    {
+        "question": "What is Cryptoware?",
+        "options": [
+            {
+                "a": "A type of malware that encrypts the files on an infected computer or network, making them inaccessible unless a ransom is paid.",
+                "b": "A type of malware that hides itself in an image or other file format.",
+                "c": "A type of malware that infects computer systems by exploiting vulnerabilities in the operating system or software applications.",
+                "d": "A type of malware that steals sensitive information, such as passwords and credit card numbers, from the infected computer."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is Ransomware?",
+        "options": [
+            {
+                "a": "A type of malware that encrypts the files on an infected computer or network, making them inaccessible unless a ransom is paid.",
+                "b": "A type of malware that hides itself in an image or other file format.",
+                "c": "A type of malware that infects computer systems by exploiting vulnerabilities in the operating system or software applications.",
+                "d": "A type of malware that steals sensitive information, such as passwords and credit card numbers, from the infected computer."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is Scareware?",
+        "options": [
+            {
+                "a": "A type of malware that steals sensitive information, such as passwords and credit card numbers, from the infected computer.",
+                "b": "A type of malware that hides itself in an image or other file format.",
+                "c": "A type of malware that infects computer systems by exploiting vulnerabilities in the operating system or software applications.",
+                "d": "A type of malware that displays pop-up messages and alerts on an infected computer, warning the user of non-existent security threats and encouraging them to download and install software to remove the supposed threats."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is pharming?",
+        "options": [
+            {
+                "a": "A type of cyber attack that involves redirecting users to fake websites even if they enter the correct URL in their web browser",
+                "b": "A type of cyber attack that involves exploiting vulnerabilities in software to take control of a computer or network",
+                "c": "A type of cyber attack that involves tricking users into providing confidential information through fake emails or phone calls",
+                "d": "A type of cyber attack that involves overwhelming a website or network with excessive traffic to render it unavailable"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is malvertising?",
+        "options": [
+            {
+                "a": "A type of cyber attack that involves tricking users into providing confidential information through fake emails or phone calls",
+                "b": "A type of cyber attack that involves exploiting vulnerabilities in software to take control of a computer or network",
+                "c": "A type of cyber attack where malicious advertisements are placed on legitimate websites to spread malware to unsuspecting users",
+                "d": "A type of cyber attack that involves overwhelming a website or network with excessive traffic to render it unavailable"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the result of a buffer overflow attack?",
+        "options": [
+            {
+                "a": "A targeted system's software is updated",
+                "b": "A targeted system is protected from unauthorized access",
+                "c": "A targeted system's performance is improved",
+                "d": "A malicious attacker can execute arbitrary code and take control of the targeted system"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the purpose of SQL Injection?",
+        "options": [
+            {
+                "a": "To protect a website's SQL database",
+                "b": "To inject malicious code into a website's SQL database",
+                "c": "To improve the performance of a website's SQL database",
+                "d": "To backup a website's SQL database"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What does DDoS stand for?",
+        "options": [
+            {
+                "a": "Distributed Denial of Service",
+                "b": "Distributed Denial of System",
+                "c": "Distributed Deny of Service",
+                "d": "Distributed Deny of System"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the main goal of confidentiality in software security?",
+        "options": [
+            {
+                "a": "To prevent unauthorized disclosure of information",
+                "b": "To prevent unauthorized modification of data",
+                "c": "To prevent service disruptions due to power outages",
+                "d": "To prevent hardware failures"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Confidentiality aims to prevent unauthorized disclosure of information"
+    },
+    {
+        "question": "What is the main goal of integrity in software security?",
+        "options": [
+            {
+                "a": "To prevent unauthorized disclosure of information",
+                "b": "To prevent unauthorized modification of data",
+                "c": "To prevent service disruptions due to power outages",
+                "d": "To prevent hardware failures"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Integrity aims to prevent unauthorized modification of data"
+    },
+    {
+        "question": "What is the main goal of availability in software security?",
+        "options": [
+            {
+                "a": "To prevent unauthorized disclosure of information",
+                "b": "To prevent unauthorized modification of data",
+                "c": "To prevent service disruptions and ensure productivity",
+                "d": "To prevent hardware failures"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Availability aims to prevent service disruptions and ensure productivity"
+    },
+    {
+        "question": "Which of the following best describes the goal of strong authentication?",
+        "options": [
+            {
+                "a": "To use a single type of authentication for all systems and users",
+                "b": "To use multiple types of authentication for added security",
+                "c": "To use a single type of authentication for some systems and users, and multiple types for others",
+                "d": "To use biometric authentication only"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The goal of strong authentication is to use multiple types of authentication for added security"
+    },
+    {
+        "question": "What is the main principle of least privilege?",
+        "options": [
+            {
+                "a": "To grant maximum access privileges to all users",
+                "b": "To grant the minimum access privileges necessary to perform a task",
+                "c": "To grant equal access privileges to all users",
+                "d": "To grant access privileges based on seniority"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The main principle of least privilege is to grant the minimum access privileges necessary to perform a task"
+    },
+    {
+        "question": "What is the goal of non-repudiation in the context of security?",
+        "options": [
+            {
+                "a": "To allow parties to deny the transaction took place",
+                "b": "To prevent parties from denying the transaction took place",
+                "c": "To allow parties to deny certain aspects of the transaction",
+                "d": "To prevent parties from denying certain aspects of the transaction"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The goal of non-repudiation is to prevent parties from denying the transaction took place"
+    },
+    {
+        "question": "What is the purpose of separation of duties in security?",
+        "options": [
+            {
+                "a": "To ensure that all tasks are completed by a single individual",
+                "b": "To ensure that critical tasks are completed by a single individual",
+                "c": "To ensure that critical tasks are not completed by a single individual",
+                "d": "To ensure that all tasks are completed by a group of individuals"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The purpose of separation of duties is to ensure that critical tasks are not completed by a single individual"
+    },
+    {
+        "question": "What is the main goal of defense in depth in the context of security?",
+        "options": [
+            {
+                "a": "To use a single layer of security measures",
+                "b": "To use multiple layers of security measures for added protection",
+                "c": "To use a single layer of security measures for some systems and multiple layers for others",
+                "d": "To use biometric authentication only"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The main goal of defense in depth is to use multiple layers of security measures for added protection"
+    },
+    {
+        "question": "What is one of the challenges in ensuring software security despite an increased reliance on technology?",
+        "options": [
+            {
+                "a": "Insufficient Awareness of Security Impacts",
+                "b": "Ample Availability of IT Talent",
+                "c": "Adequate Device Security During Release",
+                "d": "Broad Understanding of the Importance of Security Measures"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Increased reliance on technology creates new security challenges such as insufficient awareness of the impact of not taking security seriously."
+    },
+    {
+        "question": "What is often viewed as a challenge in ensuring software security?",
+        "options": [
+            {
+                "a": "Shortage of Talent",
+                "b": "Sufficient IT Talent",
+                "c": "Effective IT Solutions to Security Issues",
+                "d": "Proper Implementation of Security Measures by End-users"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "One of the security challenges is a shortage of talent that can lead to difficulty in ensuring software security."
+    },
+    {
+        "question": "What is the purpose of the Information Security Policy?",
+        "options": [
+            {
+                "a": "To prevent employees from accessing inappropriate websites",
+                "b": "To identify the activities that may impact risk to systems and data",
+                "c": "To prevent unauthorized access to networks and data",
+                "d": "To detect infected email and spam messages"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of the Risk Register?",
+        "options": [
+            {
+                "a": "To prevent employees from accessing inappropriate websites",
+                "b": "To identify the activities that may impact risk to systems and data",
+                "c": "To prevent illegitimate network traffic",
+                "d": "To conscious identification and treatment of physical and logical risks to systems and data"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of an Incident Response Plan?",
+        "options": [
+            {
+                "a": "To response to inevitable security incidents in a consistent and scalable way",
+                "b": "To identify the activities that may impact risk to systems and data",
+                "c": "To prevent illegitimate network traffic",
+                "d": "To conscious identification and treatment of physical and logical risks to systems and data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of Security Education and Awareness?",
+        "options": [
+            {
+                "a": "To prevent employees from accessing inappropriate websites",
+                "b": "To prevent employees from becoming the easiest method for attackers to gain unauthorized access to systems and data",
+                "c": "To prevent illegitimate network traffic",
+                "d": "To conscious identification and treatment of physical and logical risks to systems and data"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of Firewall?",
+        "options": [
+            {
+                "a": "To prevent employees from accessing inappropriate websites",
+                "b": "To identify the activities that may impact risk to systems and data",
+                "c": "To prevent illegitimate network traffic",
+                "d": "To conscious identification and treatment of physical and logical risks to systems and data"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of Intrusion Prevention?",
+        "options": [
+            {
+                "a": "To prevent unauthorized access to networks and data",
+                "b": "To identify the activities that may impact risk to systems and data",
+                "c": "To prevent illegitimate network traffic",
+                "d": "To conscious identification and treatment of physical and logical risks to systems and data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From hygiene control for security systems section"
+    },
+    {
+        "question": "What is the purpose of website content filtering?",
+        "options": [
+            {
+                "a": "To prevent employees from accessing inappropriate and infected websites",
+                "b": "To detect malware and viruses on workstations/servers",
+                "c": "To detect infected email and spam messages",
+                "d": "To provide secure access to systems and data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Website Content Filtering"
+    },
+    {
+        "question": "What is the function of email content filtering?",
+        "options": [
+            {
+                "a": "To detect infected email and spam messages",
+                "b": "To prevent employees from accessing inappropriate and infected websites",
+                "c": "To detect malware and viruses on workstations/servers",
+                "d": "To provide secure access to systems and data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Email Content Filtering"
+    },
+    {
+        "question": "What does anti-virus/malware software do?",
+        "options": [
+            {
+                "a": "Detects malware and viruses on workstations/servers",
+                "b": "Prevents employees from accessing inappropriate and infected websites",
+                "c": "Detects infected email and spam messages",
+                "d": "Provides secure access to systems and data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Anti-virus/malware"
+    },
+    {
+        "question": "What is the most widely used protocol in networks today?",
+        "options": [
+            {
+                "a": "TCP/IP",
+                "b": "FTP",
+                "c": "HTTP",
+                "d": "DNS"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From notes"
+    },
+    {
+        "question": "What is used to identify a system on a network?",
+        "options": [
+            {
+                "a": "TCP",
+                "b": "FTP",
+                "c": "IP",
+                "d": "DNS"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From notes"
+    },
+    {
+        "question": "What is the format of an IPv4 address?",
+        "options": [
+            {
+                "a": "8 groups of 4 hexadecimal digits",
+                "b": "8 groups of 16 bits",
+                "c": "4 groups of decimals",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From notes"
+    },
+    {
+        "question": "What is the format of an IPv6 address?",
+        "options": [
+            {
+                "a": "4 groups of decimals",
+                "b": "8 groups of 4 hexadecimal digits",
+                "c": "8 groups of 16 bits",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From notes"
+    },
+    {
+        "question": "What is the IP address 127.0.0.1 used for?",
+        "options": [
+            {
+                "a": "A routable IP address",
+                "b": "A reserved IP address",
+                "c": "An IP address that is not routable",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From notes"
+    },
+    {
+        "question": "What is the purpose of a subnet mask in IP addressing?",
+        "options": [
+            {
+                "a": "To determine the host addresses on a network",
+                "b": "To determine the network address on a network",
+                "c": "To determine the IP address of a network",
+                "d": "To determine the IP address of a host"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From subnetting notes"
+    },
+    {
+        "question": "What is the form of a subnet mask in IP addressing?",
+        "options": [
+            {
+                "a": "The same form as an IP address",
+                "b": "The opposite form of an IP address",
+                "c": "A different form than an IP address",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From subnetting notes"
+    },
+    {
+        "question": "What does DHCP stand for and what does it do?",
+        "options": [
+            {
+                "a": "Dynamic Host Configuration Protocol; It assigns IP, subnet, mask, default gateway, and DNS server",
+                "b": "Dynamic Host Configuration Program; It converts hostname to IP and reverse",
+                "c": "Dynamic Host Control Protocol; It controls the communication of computer with remote networks",
+                "d": "Dynamic Host Control Program; It ensures each computer has a unique IP on the network"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "DHCP stands for Dynamic Host Configuration Protocol and it assigns IP, subnet, mask, default gateway, and DNS server"
+    },
+    {
+        "question": "What is the purpose of the subnet mask in DHCP?",
+        "options": [
+            {
+                "a": "It converts hostname to IP and reverse",
+                "b": "It lets systems know what portion of IP is the network",
+                "c": "It controls the communication of computer with remote networks",
+                "d": "It ensures each computer has a unique IP on the network"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The subnet mask in DHCP lets systems know what portion of IP is the network"
+    },
+    {
+        "question": "What is the role of default gateway in DHCP?",
+        "options": [
+            {
+                "a": "It converts hostname to IP and reverse",
+                "b": "It lets systems know what portion of IP is the network",
+                "c": "It lets computer communicate with remote networks",
+                "d": "It ensures each computer has a unique IP on the network"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The default gateway in DHCP lets computer communicate with remote networks"
+    },
+    {
+        "question": "What does the DNS (domain name system) servers do?",
+        "options": [
+            {
+                "a": "Translates hostname to IP",
+                "b": "Translates IP to MAC address",
+                "c": "Translates MAC to IP address",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "DNS servers translate hostname to IP and IP to hostname"
+    },
+    {
+        "question": "What does the ARP protocol do?",
+        "options": [
+            {
+                "a": "Translates hostname to IP",
+                "b": "Translates IP to MAC address",
+                "c": "Translates MAC to IP address",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "ARP protocol translates IP to MAC address"
+    },
+    {
+        "question": "What does the RARP protocol do?",
+        "options": [
+            {
+                "a": "Translates hostname to IP",
+                "b": "Translates IP to MAC address",
+                "c": "Translates MAC to IP address",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "RARP protocol translate MAC to IP address"
+    },
+    {
+        "question": "What is the main function of a Hub in a network?",
+        "options": [
+            {
+                "a": "Send traffic based on IP address",
+                "b": "Send traffic based on MAC address",
+                "c": "Repeat traffic to all ports",
+                "d": "Send traffic based on network"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Hub repeats traffic to all ports (inefficient)"
+    },
+    {
+        "question": "What is the main function of a Switch in a network?",
+        "options": [
+            {
+                "a": "Send traffic based on IP address",
+                "b": "Send traffic based on MAC address",
+                "c": "Repeat traffic to all ports",
+                "d": "Send traffic based on network"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Switch sends traffic by MAC address (fast)"
+    },
+    {
+        "question": "What is the main function of a Router in a network?",
+        "options": [
+            {
+                "a": "Send traffic based on IP address",
+                "b": "Send traffic based on MAC address",
+                "c": "Repeat traffic to all ports",
+                "d": "Send traffic based on network"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Router sends traffic by IP address (smart)"
+    },
+    {
+        "question": "What is a packet in networking?",
+        "options": [
+            {
+                "a": "Units of data carried by a network",
+                "b": "How data is translated between private and public networks",
+                "c": "The process of how packets get from one place to another",
+                "d": "The process of translating hostname to IP address and vice versa"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Packet is defined as units of data carried by a network"
+    },
+    {
+        "question": "What is the purpose of routing in networking?",
+        "options": [
+            {
+                "a": "To translate hostname to IP address and vice versa",
+                "b": "To connect private and public networks",
+                "c": "To get packets from one place to another",
+                "d": "To send traffic based on MAC address"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Routing is defined as the process of how packets get from one place to another"
+    },
+    {
+        "question": "What is the main function of NAT in networking?",
+        "options": [
+            {
+                "a": "To get packets from one place to another",
+                "b": "To connect private and public networks",
+                "c": "To translate hostname to IP address and vice versa",
+                "d": "To send traffic based on MAC address"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "NAT is defined as a way for private and public networks to communicate"
+    },
+    {
+        "question": "What is the purpose of the 3-way handshake in networking?",
+        "options": [
+            {
+                "a": "To translate hostname to IP address and vice versa",
+                "b": "To connect private and public networks",
+                "c": "To establish a connection between two devices",
+                "d": "To send traffic based on MAC address"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The 3-way handshake is defined as a process to establish a connection between two devices"
+    },
+    {
+        "question": "What is the main function of DNS in networking?",
+        "options": [
+            {
+                "a": "To translate hostname to IP address and vice versa",
+                "b": "To connect private and public networks",
+                "c": "To get packets from one place to another",
+                "d": "To send traffic based on MAC address"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "DNS is defined as a way for computers to translate IP address to hostname and hostname to IP address"
+    },
+    {
+        "question": "What is the purpose of NAT in a network?",
+        "options": [
+            {
+                "a": "To translate between external and internal addresses",
+                "b": "To translate between IP addresses and hostnames",
+                "c": "To repeat traffic to all ports",
+                "d": "To send traffic based on MAC address"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "NAT translates between external and internal addresses"
+    },
+    {
+        "question": "What is the difference between NAT and PAT?",
+        "options": [
+            {
+                "a": "NAT is network address translation and PAT is port address translation",
+                "b": "NAT is port address translation and PAT is network address translation",
+                "c": "NAT and PAT are the same",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "NAT is network address translation and PAT is port address translation"
+    },
+    {
+        "question": "What are the two types of addresses in address translation?",
+        "options": [
+            {
+                "a": "Public address and internal address",
+                "b": "External address and network address",
+                "c": "Internal address and hostname",
+                "d": "Private address and public address"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "The two types of addresses in address translation are private and public address"
+    },
+    {
+        "question": "What is the key difference between TCP and UDP?",
+        "options": [
+            {
+                "a": "TCP is connection-oriented and UDP is connection-less",
+                "b": "UDP is connection-oriented and TCP is connection-less",
+                "c": "TCP and UDP are both connection-oriented",
+                "d": "TCP and UDP are both connection-less"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "TCP is connection-oriented and waits for responses while UDP is connection-less."
+    },
+    {
+        "question": "What is the purpose of a 3-way handshake in TCP?",
+        "options": [
+            {
+                "a": "To establish a connection",
+                "b": "To terminate a connection",
+                "c": "To acknowledge data transmission",
+                "d": "To synchronize data transmission"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The 3-way handshake is used to establish a connection between two devices."
+    },
+    {
+        "question": "Which protocol is more efficient for real-time data transmission?",
+        "options": [
+            {
+                "a": "TCP",
+                "b": "UDP",
+                "c": "Both TCP and UDP are equally efficient",
+                "d": "Neither TCP nor UDP are efficient"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "UDP is more efficient for real-time data transmission as it does not wait for responses."
+    },
+    {
+        "question": "What is a vulnerability in the context of computer security?",
+        "options": [
+            {
+                "a": "A weakness or flaw that exists in a system",
+                "b": "A successful attack on a system",
+                "c": "A protective measure used in a system",
+                "d": "A security control used to prevent attacks"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A vulnerability is a weakness or flaw that exists in a system."
+    },
+    {
+        "question": "What is an exploit in the context of computer security?",
+        "options": [
+            {
+                "a": "A successful attack on a system",
+                "b": "A weakness or flaw that exists in a system",
+                "c": "A protective measure used in a system",
+                "d": "A security control used to prevent attacks"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "An exploit turns a vulnerability into an incident and is a successful attack on a system."
+    },
+    {
+        "question": "What is an incident in the context of vulnerabilities and exploits?",
+        "options": [
+            {
+                "a": "A vulnerability that has been discovered",
+                "b": "A vulnerability that has been mitigated",
+                "c": "A vulnerability that has been exploited",
+                "d": "A vulnerability that has been neutralized"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "An incident is a vulnerability that has been exploited."
+    },
+    {
+        "question": "What are some common sources of vulnerabilities in computer systems?",
+        "options": [
+            {
+                "a": "Misconfigured systems, poor coding, insufficient security controls, and people",
+                "b": "Well-configured systems, strong coding, sufficient security controls, and machines",
+                "c": "Hackers, viruses, and malware",
+                "d": "Hardware failures and power outages"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Vulnerabilities can come from misconfigured systems, poor coding, insufficient security controls, and mostly people."
+    },
+    {
+        "question": "What is the purpose of ports in communication between systems?",
+        "options": [
+            {
+                "a": "To allocate a specific address for the communication",
+                "b": "To encode the message being sent",
+                "c": "To direct the communication to the correct recipient",
+                "d": "To separate different communication channels"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Ports are used to direct the communication to the correct recipient."
+    },
+    {
+        "question": "What is Nmap used for?",
+        "options": [
+            {
+                "a": "To send messages between systems",
+                "b": "To secure systems against vulnerabilities",
+                "c": "To identify open ports and services",
+                "d": "To encrypt messages"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Nmap is used to identify open ports and services."
+    },
+    {
+        "question": "What is a Virus?",
+        "options": [
+            {
+                "a": "A self-replicating program",
+                "b": "A self-sustaining running program",
+                "c": "A program that does something other than it claims",
+                "d": "Malware that enables surveillance"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the list of attacks"
+    },
+    {
+        "question": "What is a Worm?",
+        "options": [
+            {
+                "a": "A self-replicating program",
+                "b": "A self-sustaining running program",
+                "c": "A program that does something other than it claims",
+                "d": "Malware that enables surveillance"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From the list of attacks"
+    },
+    {
+        "question": "What is a Trojan?",
+        "options": [
+            {
+                "a": "A self-replicating program",
+                "b": "A self-sustaining running program",
+                "c": "A program that does something other than it claims",
+                "d": "Malware that enables surveillance"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the list of attacks"
+    },
+    {
+        "question": "What is Spyware?",
+        "options": [
+            {
+                "a": "A self-replicating program",
+                "b": "A self-sustaining running program",
+                "c": "A program that does something other than it claims",
+                "d": "Malware that enables surveillance"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From the list of attacks"
+    },
+    {
+        "question": "What is DDoS attack?",
+        "options": [
+            {
+                "a": "A virus that infects the computer",
+                "b": "A program that enables surveillance",
+                "c": "A volumetric attack that sends more data than victim can handle",
+                "d": "An attack that reveals private information about a person publicly"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Definition of DDoS attack"
+    },
+    {
+        "question": "What are some common features of a DDoS attack?",
+        "options": [
+            {
+                "a": "Using a single system",
+                "b": "Low volume and bandwidth",
+                "c": "Originating from legitimate sources",
+                "d": "Multiple systems with high volume and bandwidth"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Definition of DDoS attack"
+    },
+    {
+        "question": "What are some ways to mitigate DDoS attack?",
+        "options": [
+            {
+                "a": "Ignore traffic originating from places it shouldn't",
+                "b": "Rely on the victim's defense mechanisms",
+                "c": "Enable anti-spoofing and block traffic originating from places it shouldn’t",
+                "d": "Allow all traffic regardless of origin"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Mitigations to DDoS attack"
+    },
+    {
+        "question": "What is Defacement attack?",
+        "options": [
+            {
+                "a": "An attack that reveals private information about a person publicly",
+                "b": "A volumetric attack that sends more data than victim can handle",
+                "c": "A program that enables surveillance",
+                "d": "Altering or replacing a website"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Definition of Defacement attack"
+    },
+    {
+        "question": "What is the goal of Defacement attack?",
+        "options": [
+            {
+                "a": "Stealing confidential information",
+                "b": "Infecting the computer with a virus",
+                "c": "Altering or replacing a website",
+                "d": "Disrupting the normal functioning of a computer"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Definition of Defacement attack"
+    },
+    {
+        "question": "What type of website is usually targeted by Defacement attack?",
+        "options": [
+            {
+                "a": "Personal website of an individual",
+                "b": "Websites of government institutions",
+                "c": "Websites of small businesses",
+                "d": "All types of websites can be targeted"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Defacement attack can target any type of website"
+    },
+    {
+        "question": "What is the definition of doxxing?",
+        "options": [
+            {
+                "a": "A volumetric/bandwidth attack sending more data than a victim can handle",
+                "b": "Altering or replacing a website",
+                "c": "Revealing private information about a person publicly",
+                "d": "A self-replicating program"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From doxxing section"
+    },
+    {
+        "question": "What is the goal of doxxing?",
+        "options": [
+            {
+                "a": "To send high volume and bandwidth data to a system",
+                "b": "To alter or replace a website",
+                "c": "To reveal private information about a person publicly",
+                "d": "To create a self-sustaining running program"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From doxxing section"
+    },
+    {
+        "question": "What type of information can be revealed through doxxing?",
+        "options": [
+            {
+                "a": "Only technical information",
+                "b": "Only public information",
+                "c": "Private information",
+                "d": "Any type of information"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From doxxing section"
+    },
+    {
+        "question": "What is a Ping flood attack?",
+        "options": [
+            {
+                "a": "An attack that involves sending a large volume or large size of ping requests",
+                "b": "An attack that involves sending syn packets without an ACK",
+                "c": "An attack that involves sending a large volume of UDP packets",
+                "d": "An attack that involves spoofing the IP of the victim and sending ICMP/ping requests to a bunch of hosts"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is a SYN flood attack?",
+        "options": [
+            {
+                "a": "An attack that involves sending a large volume or large size of ping requests",
+                "b": "An attack that involves sending syn packets without an ACK",
+                "c": "An attack that involves sending a large volume of UDP packets",
+                "d": "An attack that involves spoofing the IP of the victim and sending ICMP/ping requests to a bunch of hosts"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is a UDP flood attack?",
+        "options": [
+            {
+                "a": "An attack that involves sending a large volume or large size of ping requests",
+                "b": "An attack that involves sending syn packets without an ACK",
+                "c": "An attack that involves sending a large volume of UDP packets",
+                "d": "An attack that involves spoofing the IP of the victim and sending ICMP/ping requests to a bunch of hosts"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is a Smurf attack?",
+        "options": [
+            {
+                "a": "An attack that involves sending a large volume or large size of ping requests",
+                "b": "An attack that involves sending syn packets without an ACK",
+                "c": "An attack that involves sending a large volume of UDP packets",
+                "d": "An attack that involves spoofing the IP of the victim and sending ICMP/ping requests to a bunch of hosts"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the effect of a Teardrop attack on a network?",
+        "options": [
+            {
+                "a": "Sends jumbled packets to a network",
+                "b": "Takes over an IP address on the network",
+                "c": "Exceeds the amount of data that can be received without problems",
+                "d": "Spoofs the IP address and sends a request that results in a response going to the victim"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Teardrop attacks send jumbled packets to a network"
+    },
+    {
+        "question": "What is the outcome of a buffer, heap, or stack overflow attack on a network?",
+        "options": [
+            {
+                "a": "Sends jumbled packets to a network",
+                "b": "Takes over an IP address on the network",
+                "c": "Exceeds the amount of data that can be received without problems",
+                "d": "Spoofs the IP address and sends a request that results in a response going to the victim"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Buffer, heap, and stack overflow attacks exceed the amount of data that can be received without problems"
+    },
+    {
+        "question": "What is the result of an ARP poisoning attack on a network?",
+        "options": [
+            {
+                "a": "Sends jumbled packets to a network",
+                "b": "Takes over an IP address on the network",
+                "c": "Exceeds the amount of data that can be received without problems",
+                "d": "Spoofs the IP address and sends a request that results in a response going to the victim"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "ARP poisoning attacks send illegitimate messages on the network to take over an IP address"
+    },
+    {
+        "question": "What is the goal of a reflection attack on a network?",
+        "options": [
+            {
+                "a": "Sends jumbled packets to a network",
+                "b": "Takes over an IP address on the network",
+                "c": "Exceeds the amount of data that can be received without problems",
+                "d": "Spoofs the IP address and sends a request that results in a response going to the victim"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Reflection attacks spoof the IP address and send a request, resulting in a response going to the victim"
+    },
+    {
+        "question": "What is a dictionary attack in the context of password attacks?",
+        "options": [
+            {
+                "a": "A method of gaining access to a system by bypassing authentication",
+                "b": "A type of password attack where the attacker uses a list of common passwords",
+                "c": "A method of cracking passwords by trying every possible combination of characters",
+                "d": "A type of password attack that uses a precomputed lookup table to crack passwords"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From password attacks"
+    },
+    {
+        "question": "What is a brute force attack in the context of password attacks?",
+        "options": [
+            {
+                "a": "A type of password attack where the attacker uses a list of common passwords",
+                "b": "A method of cracking passwords by trying every possible combination of characters",
+                "c": "A method of gaining access to a system by bypassing authentication",
+                "d": "A type of password attack that uses a precomputed lookup table to crack passwords"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From password attacks"
+    },
+    {
+        "question": "What is a rainbow table in the context of password attacks?",
+        "options": [
+            {
+                "a": "A method of cracking passwords by trying every possible combination of characters",
+                "b": "A type of password attack where the attacker uses a list of common passwords",
+                "c": "A method of gaining access to a system by bypassing authentication",
+                "d": "A type of password attack that uses a precomputed lookup table to crack passwords"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From password attacks"
+    },
+    {
+        "question": "What is the primary goal of a Cross-site scripting attack?",
+        "options": [
+            {
+                "a": "To inject malicious scripts into a website",
+                "b": "To display infected ads on legitimate websites",
+                "c": "To bypass authentication and gain access to a system",
+                "d": "To change the home page, search, and toolbars of a browser"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the name for the type of attack where infected ads are displayed on legitimate websites?",
+        "options": [
+            {
+                "a": "Cross-site scripting",
+                "b": "Malvertising",
+                "c": "Browser hijack",
+                "d": "Backdoors"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the primary focus of a blue team in security attack prevention?",
+        "options": [
+            {
+                "a": "Defend and prevent attacks",
+                "b": "Compromise the organization",
+                "c": "Attack the organization",
+                "d": "Simulate real-world attacks"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Blue team focuses on defending and preventing attacks by hardening systems."
+    },
+    {
+        "question": "What is the primary goal of a red team in security attack prevention?",
+        "options": [
+            {
+                "a": "Defend and prevent attacks",
+                "b": "Compromise the organization",
+                "c": "Attack the organization",
+                "d": "Simulate real-world attacks"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Red team's goal is to compromise the organization by acting as external attackers who are blind to the organization's defenses."
+    },
+    {
+        "question": "What does a purple team in security attack prevention do?",
+        "options": [
+            {
+                "a": "Defend and prevent attacks",
+                "b": "Compromise the organization",
+                "c": "Both attack and defend",
+                "d": "Simulate real-world attacks"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Purple team is a single group that both attacks and defends, combining the responsibilities of the blue and red teams."
+    },
+    {
+        "question": "Which of the following is an example of a firewall technique used for packet filtering?",
+        "options": [
+            {
+                "a": "Manual",
+                "b": "Circuit-level Firewall",
+                "c": "Stateless Firewall",
+                "d": "Intrusion Prevention"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Firewalls can have different techniques such as circuit-level firewall, packet-filtering firewall, stateless firewall, stateful firewall, etc. Circuit-level firewall is a type of firewall technique used for packet filtering."
+    },
+    {
+        "question": "What is the main difference between Intrusion Detection and Intrusion Prevention?",
+        "options": [
+            {
+                "a": "Intrusion Detection notifies, Intrusion Prevention stops",
+                "b": "Intrusion Detection only stops, Intrusion Prevention notifies",
+                "c": "Intrusion Detection and Prevention only notifies",
+                "d": "Intrusion Detection and Prevention only stops"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Intrusion Detection is a security measure that only detects and notifies about intrusions while Intrusion Prevention is a security measure that detects and stops intrusions."
+    },
+    {
+        "question": "Which security method allows employers to determine which websites will/won't be permitted to access in the network?",
+        "options": [
+            {
+                "a": "Web content filtering",
+                "b": "Email content filtering",
+                "c": "RBL: Realtime blackhole list",
+                "d": "SPF: Sender policy framework"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Web content filtering allows employers to determine which sites and categories of sites will/won’t be permitted"
+    },
+    {
+        "question": "Which security method determines whether emails should be let through in the network?",
+        "options": [
+            {
+                "a": "Web content filtering",
+                "b": "Email content filtering",
+                "c": "RBL: Realtime blackhole list",
+                "d": "SPF: Sender policy framework"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Email content filtering determines whether emails should be let through and considers source IP addr, source/destination email addr, content, attachment, etc"
+    },
+    {
+        "question": "What is the purpose of RBL in the context of security?",
+        "options": [
+            {
+                "a": "To allow employers to determine which websites will/won't be permitted to access in the network",
+                "b": "To determine whether emails should be let through in the network",
+                "c": "To identify sources of spam in real-time",
+                "d": "To determine which IP addresses should be permitted to send email for your domain"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "RBL (Realtime blackhole list) is used to identify sources of spam in real-time"
+    },
+    {
+        "question": "What is the purpose of SPF in the context of security?",
+        "options": [
+            {
+                "a": "To allow employers to determine which websites will/won't be permitted to access in the network",
+                "b": "To determine whether emails should be let through in the network",
+                "c": "To identify sources of spam in real-time",
+                "d": "To determine which IP addresses should be permitted to send email for your domain"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "SPF (Sender policy framework) determines which IP addresses should be permitted to send email for your domain"
+    },
+    {
+        "question": "What is the main purpose of using a VPN?",
+        "options": [
+            {
+                "a": "To provide secure access to other systems",
+                "b": "To improve website loading speed",
+                "c": "To access geo-restricted content",
+                "d": "To hide the IP address"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The main purpose of using a VPN is to provide secure access to other systems by encrypting the traffic while it is in the “tunnel”."
+    },
+    {
+        "question": "What is a honeypot in the context of computer security?",
+        "options": [
+            {
+                "a": "A system designed to distract attackers from real targets",
+                "b": "A system designed to monitor network traffic",
+                "c": "A system designed to be vulnerable to attacks",
+                "d": "A system designed to be immune to attacks"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A honeypot is a system designed to be an attractive target for attackers, in order to distract them from real targets or detect their activities."
+    },
+    {
+        "question": "What is a honeynets in the context of computer security?",
+        "options": [
+            {
+                "a": "A network designed to monitor network traffic",
+                "b": "A network designed to contain one or more honeypots",
+                "c": "A network designed to be immune to attacks",
+                "d": "A network designed to be vulnerable to attacks"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "A honeypots is a network designed to be an attractive target for attackers, and may contain one or more honeypots, which are systems designed to distract attackers from real targets or detect their activities."
+    },
+    {
+        "question": "What is a tarpit in the context of computer security?",
+        "options": [
+            {
+                "a": "A system designed to slow down attackers",
+                "b": "A system designed to be immune to attacks",
+                "c": "A system designed to be an attractive target for attackers",
+                "d": "A system designed to distract attackers from real targets"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A tarpit is a system designed to slow down attackers by delaying their attempts to connect to the system or transfer data."
+    },
+    {
+        "question": "What is a canary in the context of computer security?",
+        "options": [
+            {
+                "a": "A system designed to provide early warning",
+                "b": "A system designed to be immune to attacks",
+                "c": "A system designed to slow down attackers",
+                "d": "A system designed to be an attractive target for attackers"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A canary is a system designed to provide early warning of security breaches or system failures by monitoring changes or anomalies in the system."
+    },
+    {
+        "question": "What is the main objective of incident handling?",
+        "options": [
+            {
+                "a": "To resolve an incident in a calm and efficient manner",
+                "b": "To determine if the service should be restarted",
+                "c": "To only log information about an incident",
+                "d": "To solely focus on the communications aspect of an incident"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From incident handling section"
+    },
+    {
+        "question": "What is the main objective of incident response?",
+        "options": [
+            {
+                "a": "To analyze and contain an incident",
+                "b": "To resolve an incident in a calm and efficient manner",
+                "c": "To determine if the service should be restored",
+                "d": "To plan and coordinate the response to an incident"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the goal of incident management in IT services?",
+        "options": [
+            {
+                "a": "To prevent unplanned interruptions to IT services",
+                "b": "To minimize business impact",
+                "c": "To ensure normal service operation is not restored",
+                "d": "To restore normal service operation as quickly as possible"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "Which of the following is NOT a step in the progression from a vulnerability to a security incident?",
+        "options": [
+            {
+                "a": "Vulnerability",
+                "b": "Compromise",
+                "c": "Breach",
+                "d": "Prevention"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Prevention is not a step in the progression from a vulnerability to a security incident, but rather an effort to prevent the exploitation of vulnerabilities in the first place."
+    },
+    {
+        "question": "What is the difference between a security incident and a security breach?",
+        "options": [
+            {
+                "a": "A security incident is a violation or imminent threat of violation of computer security policies, while a security breach is a system that has been compromised.",
+                "b": "A security breach is a violation or imminent threat of violation of computer security policies, while a security incident is a system that has been compromised.",
+                "c": "A security incident and a security breach are the same thing.",
+                "d": "None of the above."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A security incident is defined as a violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices, while a security breach is defined as a system that has been compromised."
+    },
+    {
+        "question": "What is one of the key steps of the Preparation stage of the PICERL process?",
+        "options": [
+            {
+                "a": "Building a dedicated incident response team",
+                "b": "Establishing a communications plan",
+                "c": "Conducting regular incident response drills",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From the Preparation section of PICERL process"
+    },
+    {
+        "question": "What is the main goal of understanding the environment in the Preparation stage of the PICERL process?",
+        "options": [
+            {
+                "a": "To be prepared for a security incident",
+                "b": "To understand the cost of an incident",
+                "c": "To understand the impacts of an incident",
+                "d": "To understand the tools and technology available"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the Preparation section of PICERL process"
+    },
+    {
+        "question": "What is the difference between an event and an incident in PICERL process?",
+        "options": [
+            {
+                "a": "An event is a violation or threat of violation of computer security policies, while an incident is an observable occurrence in a system or network",
+                "b": "An incident is an adverse event in an information system, network, or the threat of such an event, while an event is an observable occurrence in a system or network",
+                "c": "An event is an adverse event in an information system, network, or the threat of such an event, while an incident is a violation or threat of violation of computer security policies",
+                "d": "An event and incident are the same thing"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From Identification section of PICERL process"
+    },
+    {
+        "question": "What is the initial step of identifying a security incident in PICERL process?",
+        "options": [
+            {
+                "a": "Determining the type of threat and the scope",
+                "b": "Ensuring common understanding of how the incident was detected",
+                "c": "Identifying the urgency and initial impact",
+                "d": "Determining whether it is an event or an incident"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From Identification section of PICERL process"
+    },
+    {
+        "question": "What is the main goal of the Containment phase in incident response?",
+        "options": [
+            {
+                "a": "To stop the problem from getting worse",
+                "b": "To fully restore the service",
+                "c": "To identify the root cause of the incident",
+                "d": "To collect data for analysis"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From Containment section"
+    },
+    {
+        "question": "What is a key aspect of communication in the Containment phase of incident response?",
+        "options": [
+            {
+                "a": "Ensuring the right individuals are present",
+                "b": "Sharing information with everyone involved",
+                "c": "Removing individuals who are not necessary",
+                "d": "Keeping all information confidential"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From Containment section"
+    },
+    {
+        "question": "What is the main goal of the Recovery step in the PICERL process?",
+        "options": [
+            {
+                "a": "To restore service back to normal",
+                "b": "To contain the problem",
+                "c": "To identify the type of threat",
+                "d": "To prevent the problem from getting worse"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From Recovery section"
+    },
+    {
+        "question": "What should be done before introducing each element back into the production environment during the Recovery stage of the PICERL process?",
+        "options": [
+            {
+                "a": "Restore the element without testing it",
+                "b": "Monitor and validate the element",
+                "c": "Skip the element",
+                "d": "Re-introduce the element without monitoring it"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From Recovery section of the PICERL process"
+    },
+    {
+        "question": "What is the purpose of conducting a lessons learned meeting in the PICERL process?",
+        "options": [
+            {
+                "a": "To walk through and review the incident report.",
+                "b": "To identify security controls to prevent future incidents.",
+                "c": "To have a common understanding of the incident.",
+                "d": "All of the above."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "The lessons learned meeting is conducted for all the reasons mentioned in options a, b, and c."
+    },
+    {
+        "question": "When should the lessons learned meeting be performed in the PICERL process?",
+        "options": [
+            {
+                "a": "Within 2 weeks of the incident.",
+                "b": "Within 1 week of the incident.",
+                "c": "Within 3 weeks of the incident.",
+                "d": "Within a month of the incident."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The lessons learned meeting should be performed within 2 weeks of the incident according to the notes."
+    },
+    {
+        "question": "What is vulnerability in the context of computer security?",
+        "options": [
+            {
+                "a": "A countermeasure in place that strengthens security",
+                "b": "A weakness in a system that could be used to harm an info asset",
+                "c": "A strength in a security system, software, or procedure",
+                "d": "An attack that exploits a weakness in a security system, software, or procedure"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "A vulnerability is defined as a weakness in a system that could be used to harm an info asset."
+    },
+    {
+        "question": "What is a threat in the context of information security?",
+        "options": [
+            {
+                "a": "Anything that has the potential to do harm to an organization",
+                "b": "A weakness in a system",
+                "c": "A positive impact on the organization",
+                "d": "An absence of a countermeasure"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From threat definition"
+    },
+    {
+        "question": "What is a Threat agent?",
+        "options": [
+            {
+                "a": "An entity that takes advantage of a vulnerability",
+                "b": "An entity that creates a vulnerability",
+                "c": "A defense mechanism against threats",
+                "d": "A secure system"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From Threat agent section"
+    },
+    {
+        "question": "What is Risk?",
+        "options": [
+            {
+                "a": "Probability that a vulnerability will be exploited and the impact if it does",
+                "b": "Absence of threats",
+                "c": "A secure system",
+                "d": "Potential for loss, damage, destruction of an asset as a result of a threat exploiting a vulnerability"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From Risk section"
+    },
+    {
+        "question": "What is the formula for Risk?",
+        "options": [
+            {
+                "a": "Probabilityimpact",
+                "b": "Threatvulnerability",
+                "c": "Impact*vulnerability",
+                "d": "Probability/impact"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From Risk formula section"
+    },
+    {
+        "question": "What type of assessment involves calculating the Asset Value (AV) for each asset?",
+        "options": [
+            {
+                "a": "Quantitative assessment",
+                "b": "Qualitative assessment",
+                "c": "Subjective assessment",
+                "d": "Objective assessment"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the purpose of a qualitative risk assessment?",
+        "options": [
+            {
+                "a": "To calculate the Asset Value (AV) for each asset",
+                "b": "To determine the seriousness of threats by standard",
+                "c": "To identify threats",
+                "d": "To determine the exposure factor"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is meant by risk appetite in the context of an organization?",
+        "options": [
+            {
+                "a": "The amount of risk an entity is willing to accept",
+                "b": "The amount of risk an entity is not willing to accept",
+                "c": "The total amount of risk present in the organization",
+                "d": "The amount of risk the owner is willing to accept"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From risk appetite definition"
+    },
+    {
+        "question": "What does risk tolerance refer to in an organization?",
+        "options": [
+            {
+                "a": "The limits of risk that an entity is willing to accept",
+                "b": "The amount of risk the owner is willing to accept",
+                "c": "The amount of risk present in the organization",
+                "d": "The total risk an entity is willing to take"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From risk tolerance definition"
+    },
+    {
+        "question": "What is a risk register?",
+        "options": [
+            {
+                "a": "A database of all risks to an organization",
+                "b": "A database of all security measures in an organization",
+                "c": "A database of all vulnerabilities in an organization",
+                "d": "A database of all threat agents in an organization"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A risk register is an inventory of risks to an organization."
+    },
+    {
+        "question": "What is a risk owner?",
+        "options": [
+            {
+                "a": "An individual responsible for ensuring a risk is managed appropriately",
+                "b": "An individual responsible for identifying vulnerabilities in an organization",
+                "c": "An individual responsible for securing the database of an organization",
+                "d": "An individual responsible for documenting all threats in an organization"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "A risk owner is an individual responsible for ensuring a risk is managed appropriately."
+    },
+    {
+        "question": "What is the formula to calculate Single Loss Expectancy (SLE)?",
+        "options": [
+            {
+                "a": "SLE = AV * EF",
+                "b": "SLE = AV / EF",
+                "c": "SLE = EF / AV",
+                "d": "SLE = AV + EF"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Single Loss Expectancy (SLE) is calculated as SLE = AV * EF, where AV is the Asset value and EF is the Exposure factor."
+    },
+    {
+        "question": "What is Annual Loss Expectancy (ALE)?",
+        "options": [
+            {
+                "a": "The value you will measure if risk becomes real in one year",
+                "b": "The value you lose when the risk becomes real",
+                "c": "The cost of loss due to risk over a single year",
+                "d": "The chance the risk turns real"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Annual Loss Expectancy (ALE) is the value you will measure if risk becomes real in one year"
+    },
+    {
+        "question": "What is the formula for calculating ALE?",
+        "options": [
+            {
+                "a": "ALE = SLEARO",
+                "b": "ALE = (AVEF) ARO",
+                "c": "ALE = (AVEF) + ARO",
+                "d": "ALE = SLE + ARO"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The formula for calculating ALE is ALE = (AVEF) ARO"
+    },
+    {
+        "question": "What is residual risk?",
+        "options": [
+            {
+                "a": "The risk that is impossible to identify or fully mitigate",
+                "b": "The risk that has been fully eliminated",
+                "c": "The risk that has been fully mitigated",
+                "d": "The risk that is non-existent"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Residual risk is the risk remaining after controls are applied and is left over after countermeasures."
+    },
+    {
+        "question": "What is the purpose of a deterrent risk control?",
+        "options": [
+            {
+                "a": "To reduce the likelihood of an attack and discourage violation",
+                "b": "To protect vulnerabilities and make an attack unsuccessful",
+                "c": "To determine whether controls are working and detect errors",
+                "d": "To eliminate the risk completely"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Deterrent risk controls aim to reduce the likelihood of an attack and discourage violation"
+    },
+    {
+        "question": "What is the aim of a preventive risk control?",
+        "options": [
+            {
+                "a": "To reduce the likelihood of an attack and discourage violation",
+                "b": "To protect vulnerabilities and make an attack unsuccessful",
+                "c": "To determine whether controls are working and detect errors",
+                "d": "To eliminate the risk completely"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Preventive risk controls aim to protect vulnerabilities and make an attack unsuccessful"
+    },
+    {
+        "question": "What is the objective of a detective risk control?",
+        "options": [
+            {
+                "a": "To reduce the likelihood of an attack and discourage violation",
+                "b": "To protect vulnerabilities and make an attack unsuccessful",
+                "c": "To determine whether controls are working and detect errors",
+                "d": "To eliminate the risk completely"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Detective risk controls aim to determine whether other controls are working and detect errors"
+    }
+]

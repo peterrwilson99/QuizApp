@@ -1,0 +1,1249 @@
+[
+    {
+        "question": "What is the tradeoff between Functionality and Scalability?",
+        "options": [
+            {
+                "a": "A system may be able to scale to fit more users if there are less features/services in the overall system",
+                "b": "System will often degrade when the demand for the system increases",
+                "c": "As systems get larger, it becomes difficult for humans to operate them, so autonomic computing is a solution",
+                "d": "Your mother"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Why is replica consistency important in a scalable/distributed system?",
+        "options": [
+            {
+                "a": "The more replicas of the primary node you have the more consistent the system becomes",
+                "b": "It is important because if they aren't consistent than the system can fail",
+                "c": "this is definitely the answer",
+                "d": "So secondary (or replica) nodes/servers are consistent with the primary."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "High scalability is obtainable if you have more network partitions. What issue does this cause with replica consistency and why?",
+        "options": [
+            {
+                "a": "The more partition you have the more inconsistent the system becomes",
+                "b": "It reduces replica consistency because there are more partitions, and it is very difficult/costly to ensure that all nodes are exactly consistent, or even not possible",
+                "c": "The system becomes slower overall because of the extra partitions",
+                "d": "Idk ask chatgpt",
+                "e": "After a certain amount of partitions, data in each partition is different"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which statement is true regarding Vertical and Horizontal Scaling?",
+        "options": [
+            {
+                "a": "In Vertical scaling you add more nodes",
+                "b": "In Horizontal scaling you are adding more resources via system hardware, such as changing the CPU",
+                "c": "In vertical scaling the system is still operable while being scaled",
+                "d": "In Horizontal scaling the system is still operable while being scaled"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "True or False: Two of many reasons to choose horizontal scaling over vertical scaling are that horizontal scaling allows no downtime while resources are being added, and if a resource fails your system can remain online and depend on the other resources",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A stateless server...",
+        "options": [
+            {
+                "a": "saves client data generated in one session for use in the next",
+                "b": "Is a server that cannot be horizontally scaled",
+                "c": "doesn't save client data generated in one session for use in the next",
+                "d": "Is a server that cannot be vertically scaled"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Cloud computing is the practice of using large groups of local servers hosted on the internet to store and access applications and compute data, instead of saving them on a local server or personal computer",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which type of Cloud has the highest level of security?",
+        "options": [
+            {
+                "a": "Public Cloud",
+                "b": "Private Cloud",
+                "c": "Community Cloud",
+                "d": "Hybrid Cloud"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is the biggest disadvantage to cloud computing?",
+        "options": [
+            {
+                "a": "Limited storage capacity",
+                "b": "Inefficient collaborations",
+                "c": "Cost",
+                "d": "Data security"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A hypervisor is the software or firmware layer that enables multiple operating systems to run side-by-side, all with access to the same physical server resources",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A VM uses the host OS's kernel",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Containers have their own file system but not a kernel",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which statement is true regarding Containers and VMs is true?",
+        "options": [
+            {
+                "a": "VMs have a copy of the whole OS",
+                "b": "VMs are portable",
+                "c": "Containers have a copy of the whole OS",
+                "d": "VMs are slightly smaller than containers"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "All containers on a particular host machine must be designed to run on the same kind of OS. Containers based on a different OS will require a different host",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Images are read-only and cannot be modified, whereas containers can be modified",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "If all the processes doing the system work can all work independently of each other than it is still considered a distributed system",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A container can be connected to the outside network, but the outside network cannot get inside the container",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The none network...",
+        "options": [
+            {
+                "a": "is able to share the host's network stack, removing isolation",
+                "b": "disconnects the container from the network, making it isolated",
+                "c": "is able to communicate to any other network resources",
+                "d": "should never be used in a distributed system"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The host network...",
+        "options": [
+            {
+                "a": "is able to share the host's network stack, removing isolation",
+                "b": "disconnects the container from the network, making it isolated",
+                "c": "is not able to communicate to any other network resources",
+                "d": "should always be used in a distributed system"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "The CAP thereom states that a distributed system cannot be strictly consistent, highly available and fault tolerant at the same time.",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "CAP consistency promises that every replica of the same logical value, spread across nodes in a distributed system, has the same exact value at all times.",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "ACID consistency is all about database rules, so if a schema declares that a value must be unique, then a consistent system will enforce uniqueness of that value for all operations",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Which of the following is true about partition tolerance?",
+        "options": [
+            {
+                "a": "A system that is partition-tolerant cannot sustain any amount of network failure, or else the entire network will fail",
+                "b": "Data records are not replicated across nodes",
+                "c": "internal pointer variable",
+                "d": "A system that is partition-tolerant can sustain any amount of network failure that does not result in a failure of the entire network"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "A monolithic architecture can have multiple codebases",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "SQL databases are only vertically scalable, but NoSQL databases are horizontally scalable as well because of sharding and replication",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is the difference between sharding and partitioning a database?",
+        "options": [
+            {
+                "a": "Shards reside on a single server",
+                "b": "Shards can reside on different servers",
+                "c": "Partitions can reside on different servers",
+                "d": "Partitioning implies data is spread across multiple computers"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "Key-value databases are highly partionable and are best in horizontal scaling",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "In a column oriented databases, each table that is broken up by its column must have a unique identifier that exists in all tables that were sliced",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database is useful for a social networking system whose only purpose is to connect people?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database is useful for a content management system?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What type of database should you avoid if you need to write complex queries?",
+        "options": [
+            {
+                "a": "Column oriented db",
+                "b": "Document db",
+                "c": "Graph db",
+                "d": "Relational db"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "How does MongoDB achieve redundancy and high availability?",
+        "options": [
+            {
+                "a": "By using a monolithic architecture",
+                "b": "It uses partitioning",
+                "c": "MongoDB cannot achieve redundancy and high availability",
+                "d": "It uses replica sets to replicate data to multiple nodes"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "In MongoDB, secondary nodes can receive writes",
+        "options": [
+            {
+                "a": "True",
+                "b": "False"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What does the primary oplog in MongoDB do?",
+        "options": [
+            {
+                "a": "Creates seconday oplogs",
+                "b": "Contains operations that the secondary nodes can copy and apply",
+                "c": "Creates seconday nodes",
+                "d": "Write data to the correct partition"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+
+    {
+        "question": "What is a disadvantage to sharding?",
+        "options": [
+            {
+                "a": "Setup heavy",
+                "b": "Not consistent",
+                "c": "Lowers system performance",
+                "d": "Low storage capacity"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is scalability in software systems?",
+        "options": [
+            {
+                "a": "The ability of a software system to handle growth in some dimension of its operations",
+                "b": "The ability of a software system to handle decrease in some dimension of its operations",
+                "c": "The ability of a software system to handle stability in some dimension of its operations"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the 'Basics of Scalability' section"
+    },
+    {
+        "question": "What are the three dimensions of scalability?",
+        "options": [
+            {
+                "a": "Number of user requests the system can handle, amount of data the system can handle, speed",
+                "b": "Number of user requests the system can handle, amount of data the system can handle, value that can be derived from the data a system stores",
+                "c": "Number of user requests the system can handle, performance, value that can be derived from the data a system stores",
+                "d": "Number of user requests the system can handle, amount of data the system can handle, usability"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From the 'Dimensions of Scalability' section"
+    },
+    {
+        "question": "What are some of the negative repercussions of building a scalable system that must be understood when establishing the design?",
+        "options": [
+            {
+                "a": "Cost, operability, usability, replica consistency",
+                "b": "Performance, operability, usability, replica consistency",
+                "c": "Cost, performance, operability, replica consistency",
+                "d": "Cost, performance, operability, usability"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From the 'Scalability Tradeoffs' section"
+    },
+    {
+        "question": "What is a common solution for scalability in system design?",
+        "options": [
+            {
+                "a": "Cloud storage, NoSQL databases",
+                "b": "Caching, NoSQL databases",
+                "c": "Scale up/out, Load Balancing, Lightweight applications, Cloud storage, Caching",
+                "d": "Load Balancing, Lightweight applications, Cloud storage"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the 'Frequent solutions to scalability in design' section"
+    },
+    {
+        "question": "What is the purpose of the supermarket case study mentioned in the notes?",
+        "options": [
+            {
+                "a": "To show the importance of scalability in software systems",
+                "b": "To provide an example of poor system design",
+                "c": "To provide an example of good system design",
+                "d": "To provide an example of superior system design"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the 'Supermarket Case Study' section"
+    },
+    {
+        "question": "What is vertical scaling?",
+        "options": [
+            {
+                "a": "Adding more resources to a single system to handle increased demand.",
+                "b": "Adding more nodes to a system.",
+                "c": "A combination of vertical and horizontal scaling.",
+                "d": "Removing resources from a system to reduce costs."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From vertical scaling section"
+    },
+    {
+        "question": "What is horizontal scaling?",
+        "options": [
+            {
+                "a": "Adding more resources to a single system to handle increased demand.",
+                "b": "Adding more nodes to a system.",
+                "c": "A combination of vertical and horizontal scaling.",
+                "d": "Removing resources from a system to reduce costs."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From horizontal scaling section"
+    },
+    {
+        "question": "What is a stateless application?",
+        "options": [
+            {
+                "a": "An application that does not save client data generated in one session for use in the next session.",
+                "b": "An application that saves client data generated in one session for use in the next session.",
+                "c": "A non-scalable application.",
+                "d": "A complex application architecture."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From stateless application section"
+    },
+    {
+        "question": "What are the benefits of horizontal scaling?",
+        "options": [
+            {
+                "a": "Little to no downtime due to single point of failure, resiliency through service redundancy, and automatic scaling when necessary.",
+                "b": "Downtime due to single point of failure, lack of resiliency through service redundancy, and manual scaling when necessary.",
+                "c": "Downtime due to multiple points of failure, lack of resiliency through service redundancy, and automatic scaling when necessary.",
+                "d": "Downtime due to multiple points of failure, resiliency through service redundancy, and manual scaling when necessary."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From why horizontal scaling section"
+    },
+    {
+        "question": "What are the steps to achieve effective horizontal scaling?",
+        "options": [
+            {
+                "a": "Making an application stateful on the server and creating self-contained logical blocks.",
+                "b": "Making an application stateless on the server and creating self-contained logical blocks.",
+                "c": "Making an application stateless on the client and creating self-contained logical blocks.",
+                "d": "Making an application stateful on the client and creating self-contained logical blocks."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From achieving effective horizontal scaling section"
+    },
+    {
+        "question": "Which of the following is the most preferred type of scaling for a small company that does not expect users/data to increase?",
+        "options": [
+            {
+                "a": "Vertical scaling",
+                "b": "Horizontal scaling",
+                "c": "Diagonal scaling",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "yep"
+    },
+    {
+        "question": "What is cloud computing?",
+        "options": [
+            {
+                "a": "The practice of using large groups of remote servers to store and access applications and compute data.",
+                "b": "A method of saving applications and data on a local server or personal computer.",
+                "c": "A system that is not scalable.",
+                "d": "A type of data storage that is not cost-effective."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Definition of cloud computing."
+    },
+    {
+        "question": "What are the benefits of private cloud deployment model?",
+        "options": [
+            {
+                "a": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "b": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "c": "Shared with general public and owned by a third-party cloud service provider.",
+                "d": "Combination of cloud deployment models."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Private cloud deployment model characteristics."
+    },
+    {
+        "question": "What are the benefits of public cloud deployment model?",
+        "options": [
+            {
+                "a": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "b": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "c": "Combination of cloud deployment models.",
+                "d": "Shared with general public and owned by a third-party cloud service provider."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Public cloud deployment model characteristics."
+    },
+    {
+        "question": "What are the benefits of hybrid cloud deployment model?",
+        "options": [
+            {
+                "a": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "b": "Cost-effective, easy deployments, on-demand scalability, reliability, and continuous uptime.",
+                "c": "Combination of cloud deployment models, secure & safe, cost-effective, flexible and scalable, and easy transition.",
+                "d": "Shared with general public and owned by a third-party cloud service provider."
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Hybrid cloud deployment model characteristics."
+    },
+    {
+        "question": "What is the purpose of community cloud?",
+        "options": [
+            {
+                "a": "Shared with general public and owned by a third-party cloud service provider.",
+                "b": "Combination of cloud deployment models, secure & safe, cost-effective, flexible and scalable, and easy transition.",
+                "c": "Dedicated to one business, highly secure, located on premise or in private data center, and needs to be maintained.",
+                "d": "Shared with other organizations with similar interests."
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Community cloud purpose."
+    },
+    {
+        "question": "What is a hypervisor?",
+        "options": [
+            {
+                "a": "Software or firmware layer that enables multiple OS's to run side by side",
+                "b": "Virtual machine monitor",
+                "c": "Orchestrates and separates available resources",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From hypervisor section"
+    },
+    {
+        "question": "What are the major differences between containers and virtual machines?",
+        "options": [
+            {
+                "a": "Startup time, disk space, portability, efficiency, and OS/Kernel",
+                "b": "Startup time, disk space, security, efficiency, and OS/Kernel",
+                "c": "Startup time, disk space, portability, performance, and OS/Kernel",
+                "d": "Startup time, disk space, portability, efficiency, and hardware"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From containers vs virtual machines section"
+    },
+    {
+        "question": "What is the difference between the cost of virtualization and containerization?",
+        "options": [
+            {
+                "a": "Virtualization costs are more expensive, while containerization is open source and cost-effective",
+                "b": "Virtualization costs are open source and cost-effective, while containerization is more expensive",
+                "c": "Both virtualization and containerization costs are expensive",
+                "d": "Both virtualization and containerization costs are open source and cost-effective"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From cost comparison section"
+    },
+    {
+        "question": "What is virtualization and why is it used?",
+        "options": [
+            {
+                "a": "Virtualization is a software layer that allows multiple operating systems to run on a single machine.",
+                "b": "Virtualization is a hardware layer that allows multiple machines to run on a single operating system.",
+                "c": "Virtualization is a security measure used to isolate different systems and prevent them from interfering with each other.",
+                "d": "Virtualization is a network architecture that enables multiple physical servers to appear as a single virtual server."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Virtualization allows multiple operating systems to run on a single machine, enabling improved scalability and reduced overhead costs."
+    },
+    {
+        "question": "What are the key differences between containers and virtual machines?",
+        "options": [
+            {
+                "a": "Containers have their own file system and kernel, while virtual machines share a file system and kernel.",
+                "b": "Virtual machines have their own file system and kernel, while containers share a file system and kernel.",
+                "c": "Both containers and virtual machines have their own file system and kernel.",
+                "d": "Neither containers nor virtual machines have their own file system or kernel."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Virtual machines have their own file system and kernel, while containers share a file system and kernel with the host operating system and other containers."
+    },
+    {
+        "question": "What are some of the advantages of using containers compared to virtual machines?",
+        "options": [
+            {
+                "a": "Containers have faster startup time and are more portable, while virtual machines have more disk space and dedicated OS/kernel.",
+                "b": "Virtual machines have faster startup time and are more portable, while containers have more disk space and dedicated OS/kernel.",
+                "c": "Both containers and virtual machines have equal startup time and portability, but containers use less disk space.",
+                "d": "Both containers and virtual machines have equal startup time and portability, but virtual machines use less disk space."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Containers have faster startup time, are more portable, and use less disk space compared to virtual machines, which have slower startup time, less portability, and more disk space."
+    },
+    {
+        "question": "What is a trade off when building a scalable system?",
+        "options": [
+            {
+                "a": "Cost",
+                "b": "Performance",
+                "c": "Operability",
+                "d": "Functionality"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Building a scalable system almost always requires some sort of trade off with another attribute of the system"
+    },
+    {
+        "question": "What are the potential consequences of designing a scalable system with lower upfront cost?",
+        "options": [
+            {
+                "a": "Lower scalability",
+                "b": "Increased cost",
+                "c": "Decreased performance",
+                "d": "Reduced operability"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Designing a scalable system may entail greater upfront cost. If you build a cheap and small system that later on needs to be scaled up, then the cost will be extreme"
+    },
+    {
+        "question": "What is an aspect of performance that can be impacted in a non-scalable system?",
+        "options": [
+            {
+                "a": "Speed",
+                "b": "Responsiveness",
+                "c": "Availability",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Performance in a non-scalable system will often degrade when the demand for the system increases"
+    },
+    {
+        "question": "What are some solutions to address the trade off between operability and scalability?",
+        "options": [
+            {
+                "a": "Orchestration tools",
+                "b": "Caching",
+                "c": "Cloud databases",
+                "d": "NoSQL databases"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Orchestration tools such as docker swarm and Kubernetes and monitoring tools like DataDog and automatic scaling policies are some solutions to address the trade off between operability and scalability"
+    },
+    {
+        "question": "What is a trade off in the context of functionality and scalability?",
+        "options": [
+            {
+                "a": "A system may be able to scale to fit more users if there are less features/services in the overall system",
+                "b": "A system with more features/services will be able to scale to fit more users",
+                "c": "Functionality and scalability have no relationship with each other",
+                "d": "Functionality improves as the system scales"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The tradeoff between functionality and scalability is that a system may be able to scale to fit more users if there are less features/services in the overall system"
+    },
+    {
+        "question": "What is Scale Up/Down (Vertical Scaling)?",
+        "options": [
+            {
+                "a": "Adding more nodes to a system",
+                "b": "Adding resources to a single node in a system",
+                "c": "Removing nodes from a system",
+                "d": "Removing resources from a single node in a system"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is Scale Out/In (Horizontal Scaling)?",
+        "options": [
+            {
+                "a": "Adding more nodes to a system",
+                "b": "Adding resources to a single node in a system",
+                "c": "Removing nodes from a system",
+                "d": "Removing resources from a single node in a system"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "Why is Scaling Horizontally better than Scaling Vertically?",
+        "options": [
+            {
+                "a": "Horizontal scaling allows you to add more nodes without taking your existing pool of resources offline",
+                "b": "Vertical scaling allows you to add more nodes without taking your existing pool of resources offline",
+                "c": "Vertical scaling is cheaper than horizontal scaling",
+                "d": "Horizontal scaling requires more power than vertical scaling"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is a Stateless Application?",
+        "options": [
+            {
+                "a": "An application that saves client data for use in the next session",
+                "b": "An application that does not save client data for use in the next session",
+                "c": "An application that only saves client data if the next session is with the same client",
+                "d": "An application that stores client data on the server"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is Diagonal Scaling?",
+        "options": [
+            {
+                "a": "A combination of vertical and horizontal scaling, where you grow vertically within your existing infrastructure until you hit the tipping point",
+                "b": "A combination of vertical and horizontal scaling, where you grow horizontally within your existing infrastructure until you hit the tipping point",
+                "c": "Removing nodes from a system",
+                "d": "Removing resources from a single node in a system"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is cloud computing?",
+        "options": [
+            {
+                "a": "The practice of using local servers to store and access applications and compute data",
+                "b": "The practice of using large groups of remote servers hosted on the internet to store and access applications and compute data",
+                "c": "The practice of using physical computers to store and access applications and compute data",
+                "d": "The practice of using virtual machines to store and access applications and compute data"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The definition of cloud computing from the notes"
+    },
+    {
+        "question": "What are the benefits of cloud computing for a business?",
+        "options": [
+            {
+                "a": "Reduces cost of IT systems, provides unlimited storage capacity, quick data access, efficient collaboration",
+                "b": "Increases cost of IT systems, provides limited storage capacity, slow data access, inefficient collaboration",
+                "c": "Reduces cost of IT systems, provides limited storage capacity, slow data access, inefficient collaboration",
+                "d": "Increases cost of IT systems, provides unlimited storage capacity, quick data access, efficient collaboration"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Benefits listed in the notes"
+    },
+    {
+        "question": "What are the types of clouds?",
+        "options": [
+            {
+                "a": "Public Cloud, Private Cloud, Community Cloud, Hybrid Cloud",
+                "b": "Private Cloud, Hybrid Cloud, SaaS, IaaS",
+                "c": "Public Cloud, Community Cloud, SaaS, PaaS",
+                "d": "Private Cloud, Public Cloud, IaaS, PaaS"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Types of clouds listed in the notes"
+    },
+    {
+        "question": "What is SaaS?",
+        "options": [
+            {
+                "a": "Software as a Service that provides virtual platform where access to virtual machines or virtual resources is provided",
+                "b": "Software as a Service that is owned, managed and delivered by one or more users and is offered in a pay-per-use manner",
+                "c": "Platform as a Service that provides computational resources through a platform on which applications and services are developed and hosted",
+                "d": "Infrastructure as a Service that provides virtual platform where access to virtual machines or virtual resources is provided"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Definition of SaaS from the notes"
+    },
+    {
+        "question": "What is one of the challenges of cloud computing?",
+        "options": [
+            {
+                "a": "Data security",
+                "b": "Increased performance and bandwidth",
+                "c": "Round-the-clock service availability",
+                "d": "Lack of regulatory restrictions"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Challenge listed in the notes"
+    },
+    {
+        "question": "What is a hypervisor in the context of virtualization?",
+        "options": [
+            {
+                "a": "A software that enables multiple applications to run side-by-side on a single physical server",
+                "b": "A hardware layer that enables multiple operating systems to run on the same physical server",
+                "c": "A firmware layer that separates available resources between virtual machines",
+                "d": "A software that creates multiple virtual machines on a single physical server"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From the definition of hypervisor"
+    },
+    {
+        "question": "What is the main difference between virtual machines and containers?",
+        "options": [
+            {
+                "a": "Virtual machines have their own file system and kernel, containers only have a file system",
+                "b": "Containers have a file system and kernel, virtual machines only have a file system",
+                "c": "Virtual machines can run multiple operating systems on a single physical server, while containers use the same operating system",
+                "d": "Containers are smaller and easier to transfer, while virtual machines have the ability to run multiple operating systems"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the definition of virtual machines and containers"
+    },
+    {
+        "question": "What is a container?",
+        "options": [
+            {
+                "a": "A software that shares the host operating system's kernel and runs multiple applications",
+                "b": "A software that creates multiple virtual machines on a single physical server",
+                "c": "A hardware layer that separates available resources between virtual machines",
+                "d": "A software that enables multiple operating systems to run on the same physical server"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the definition of containers"
+    },
+    {
+        "question": "What is the advantage of using containers over virtual machines?",
+        "options": [
+            {
+                "a": "Virtual machines are easier to transfer and save space on the host's file system",
+                "b": "Containers are much smaller and can be deployed on a single server with multiple containers",
+                "c": "Virtual machines are great for supporting applications that require the full functionality of an operating system",
+                "d": "Containers can be moved from one host environment to another, while virtual machines cannot"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From the advantages of containers"
+    },
+    {
+        "question": "What is the Docker engine used for in the context of containerization?",
+        "options": [
+            {
+                "a": "To create a server-side process that hosts images, containers, networks and storage volumes",
+                "b": "To create multiple virtual machines on a single physical server",
+                "c": "To manage multiple operating systems on the same physical server",
+                "d": "To create a client-side process that hosts images, containers, networks and storage volumes"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From the definition of Docker engine"
+    },
+    {
+        "question": "What is the default network created when Docker is installed?",
+        "options": [
+            {
+                "a": "Host network",
+                "b": "None network",
+                "c": "Docker0 network",
+                "d": "Custom network"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From Docker Default Networking section"
+    },
+    {
+        "question": "What is the difference between Host and None network in Docker?",
+        "options": [
+            {
+                "a": "Host network provides network isolation, None network does not",
+                "b": "None network provides network isolation, Host network does not",
+                "c": "Host network allows direct access to the host’s network resources, None network does not",
+                "d": "None network allows direct access to the host’s network resources, Host network does not"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From Host vs. None network section"
+    },
+    {
+        "question": "What is ACID consistency in the context of RDBMS gold standard?",
+        "options": [
+            {
+                "a": "A system that provides Atomicity, Consistency, Isolation, and Durability",
+                "b": "A system that provides Basically Available, Soft state, and Eventually consistent",
+                "c": "A system that can be strictly consistent, highly available and fault tolerant",
+                "d": "A system that can sustain any amount of network failure"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From ACID (RDBMS gold standard) section"
+    },
+    {
+        "question": "What is the main difference between ACID consistency and CAP consistency?",
+        "options": [
+            {
+                "a": "ACID consistency is about database rules, CAP consistency is about replica consistency",
+                "b": "CAP consistency is about database rules, ACID consistency is about replica consistency",
+                "c": "ACID consistency provides 100% availability, CAP consistency does not",
+                "d": "CAP consistency provides 100% availability, ACID consistency does not"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From CAP vs. ACID Consistency section"
+    },
+    {
+        "question": "What is monolithic architecture in software development?",
+        "options": [
+            {
+                "a": "A single codebase with a specific responsibility",
+                "b": "Multiple small and independent units working together",
+                "c": "A large and complex codebase",
+                "d": "A combination of different technologies in a single system"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Defined as a single codebase in the notes"
+    },
+    {
+        "question": "What is the purpose of microservices in software development?",
+        "options": [
+            {
+                "a": "To solve specific problems by working as small and independent units",
+                "b": "To simplify the deployment process",
+                "c": "To increase the reliability of a system",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "All of the purposes are mentioned in the notes"
+    },
+    {
+        "question": "What is the outcome of using microservices in software development?",
+        "options": [
+            {
+                "a": "Increased system reliability",
+                "b": "Decreased separation of concerns",
+                "c": "Decreased developer velocity",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Increased system reliability is mentioned in the notes"
+    },
+    {
+        "question": "What is the main advantage of using microservices in software development?",
+        "options": [
+            {
+                "a": "Increased system reliability",
+                "b": "Improved deployment process",
+                "c": "Increased developer velocity"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "All of the advantages are mentioned in the notes"
+    },
+    {
+        "question": "What is the difference between monolithic architecture and microservices in software development?",
+        "options": [
+            {
+                "a": "Monolithic architecture is a single codebase whereas microservices are small and independent units working together",
+                "b": "Monolithic architecture uses multiple technologies whereas microservices use a single technology",
+                "c": "Monolithic architecture is efficient whereas microservices are inefficient",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Defined in the notes"
+    },
+    {
+        "question": "What is the difference between Partitioning and Sharding in databases?",
+        "options": [
+            {
+                "a": "Partitioning is dividing one table horizontally or vertically while sharding is dividing one database into multiple shards",
+                "b": "Sharding is dividing one table horizontally or vertically while partitioning is dividing one database into multiple partitions",
+                "c": "Partitioning and sharding are the same thing",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "Why is it difficult to horizontally scale a Relational Database Management System (RDBMS)?",
+        "options": [
+            {
+                "a": "SQL joins require a network request in addition to the CPU computation",
+                "b": "RDBMS is not designed to be horizontally scalable",
+                "c": "Horizontal scaling is not needed for RDBMS",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the advantage of using NoSQL databases over SQL databases for scalability?",
+        "options": [
+            {
+                "a": "NoSQL databases are both horizontally and vertically scalable",
+                "b": "NoSQL databases require less CPU computation",
+                "c": "NoSQL databases support database partitioning better",
+                "d": "NoSQL databases are less reliable than SQL databases"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the difference between a Cassandra and MongoDB cluster?",
+        "options": [
+            {
+                "a": "All nodes in a Cassandra cluster can communicate through gossip protocol and all nodes have a similar capability in a cluster while MongoDB has a primary node with read/write privileges that replicates data into secondary nodes",
+                "b": "Cassandras low key fine, but her dad 😰",
+                "c": "Cassandra and MongoDB clusters are the same",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "When should you avoid using a Document database?",
+        "options": [
+            {
+                "a": "When you have to run complex search queries or if the application requires complex multiple operation transactions interlinking various documents",
+                "b": "When you need to store small amounts of data",
+                "c": "When you need to store structured data",
+                "d": "When you need to store graph data"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From scalability section"
+    },
+    {
+        "question": "What is the purpose of sharding in MongoDB?",
+        "options": [
+            {
+                "a": "To increase storage capacity",
+                "b": "To improve data locality",
+                "c": "To increase read/write throughput",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Sharding is used in MongoDB to increase storage capacity, improve data locality, and increase read/write throughput."
+    },
+    {
+        "question": "What is the role of the mongos in sharding in MongoDB?",
+        "options": [
+            {
+                "a": "To store metadata and configuration settings for the cluster",
+                "b": "To act as a query router and interface between client applications and the sharded cluster",
+                "c": "To handle election, authentication, and role-based access control",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The mongos acts as a query router (mapper), providing an interface between client applications and the sharded cluster."
+    },
+    {
+        "question": "What is the purpose of the config servers in sharding in MongoDB?",
+        "options": [
+            {
+                "a": "To store metadata and config settings for the cluster",
+                "b": "To handle election, authentication, and role-based access control",
+                "c": "To act as a query router and interface between client applications and the sharded cluster",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The config servers store metadata and config settings for the cluster."
+    },
+    {
+        "question": "What is the oplog in MongoDB?",
+        "options": [
+            {
+                "a": "A special capped collection that keeps a rolling record of all operations that modify the data stored in your databases",
+                "b": "The primary node that receives writes",
+                "c": "The secondary node that updates its local collections and documents",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The oplog is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases."
+    },
+    {
+        "question": "What is the purpose of change streams in MongoDB?",
+        "options": [
+            {
+                "a": "To allow applications to access real-time data changes",
+                "b": "To sync data in both directions with a Kafka connector",
+                "c": "To divide data into ranges based on shard key values",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Change streams allow applications to access real-time data changes without the complexity and risk of tailing the oplog."
+    }
+]
