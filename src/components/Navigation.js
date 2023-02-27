@@ -20,16 +20,22 @@ function Navigation() {
                 </Box>
                 <nav>
                     <ButtonBase
-                        href="/seng468"
+                        href="/seng401"
                         sx={{ my: 1, mx: 1.5 }}
                     >
-                        <Typography className="font-medium" color='text' >SENG 468</Typography>
+                        <Typography className="font-medium" color='text' >SENG 401</Typography>
                     </ButtonBase>
                     <ButtonBase
                         href="/seng460"
                         sx={{ my: 1, mx: 1.5 }}
                     >
                         <Typography className="font-medium" color='text' >SENG 460</Typography>
+                    </ButtonBase>
+                    <ButtonBase
+                        href="/seng468"
+                        sx={{ my: 1, mx: 1.5 }}
+                    >
+                        <Typography className="font-medium" color='text' >SENG 468</Typography>
                     </ButtonBase>
                 </nav>
             </Toolbar>

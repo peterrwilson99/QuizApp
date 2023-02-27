@@ -1,0 +1,288 @@
+[
+    {
+        "question": "What is the main difference between normative and descriptive statements?",
+        "options": [
+            {
+                "a": "Normative statements suggest what is good or bad",
+                "b": "Descriptive statements suggest what is good or bad",
+                "c": "Normative statements describe what things actually are",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The difference between normative and descriptive statements is discussed under the 'Ethics' section."
+    },
+    {
+        "question": "Which of the following is not a component of the 'architecture' of technology, as described by Hildebrant?",
+        "options": [
+            {
+                "a": "Software",
+                "b": "Hardware",
+                "c": "Protocols",
+                "d": "Chemistry"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "The 'complex architecture' of technology is discussed under the 'Complex Architecture' section, where Hildebrant lists the components that determine how technology functions and how people can use it."
+    },
+    {
+        "question": "Which ethical theory argues that technology is the primary driver of social and cultural change?",
+        "options": [
+            {
+                "a": "Virtue theory",
+                "b": "Utilitarianism",
+                "c": "Technological determinism",
+                "d": "Deontological ethics"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The theory of technological determinism is discussed under the 'Technological determinism' section."
+    },
+    {
+        "question": "What is the main idea behind consequentialist theories of ethics?",
+        "options": [
+            {
+                "a": "The motivation behind an action determines its morality",
+                "b": "The end result of an action determines its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The main idea behind consequentialist theories is discussed under the 'Consequentialist Theories' section."
+    },
+    {
+        "question": "What is the main idea behind deontological ethics?",
+        "options": [
+            {
+                "a": "The motivation behind an action determines its morality",
+                "b": "The end result of an action determines its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The main idea behind deontological ethics is discussed under the 'Deontological Ethics' section."
+    },
+    {
+        "question": "Which of the following is not one of the cardinal virtues in Plato's virtue theory?",
+        "options": [
+            {
+                "a": "Courage",
+                "b": "Temperance",
+                "c": "Justice",
+                "d": "Sincerity"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Plato's cardinal virtues are discussed under the 'Virtue Theory' section."
+    },
+    {
+        "question": "According to Carol Gilligan, what is a problem with Kohlberg's moral development theory?",
+        "options": [
+            {
+                "a": "It is male-centered and ignores ethics of caring",
+                "b": "It focuses too much on cultural relativism",
+                "c": "It is too focused on deontological ethics",
+                "d": "It relies too heavily on consequentialist theories"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Carol Gilligan's critique of Kohlberg's theory is discussed under the 'Ethical Theories' section."
+    },
+    {
+        "question": "What is the veil of ignorance in Rawls' theory of justice?",
+        "options": [
+            {
+                "a": "A state in which individuals should not know what individual characteristics they would have in the society they're planning",
+                "b": "A state in which individuals should know what individual characteristics they would have in the society they're planning",
+                "c": "A state in which individuals should only care about their own interests",
+                "d": "A state in which individuals should ignore moral principles and duties"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The veil of ignorance is discussed under the 'Theory of Justice (Rawls)' section."
+    },
+    {
+        "question": "What is the difference between act utilitarianism and rule utilitarianism?",
+        "options": [
+            {
+                "a": "Act utilitarianism determines action by action what is moral by tallying up pain or happiness, while rule utilitarianism determines if a rule provides more happiness than pain",
+                "b": "Act utilitarianism determines if a rule provides more happiness than pain, while rule utilitarianism determines action by action what is moral by tallying up pain or happiness",
+                "c": "Act utilitarianism emphasizes the inherent value and dignity of human beings, while rule utilitarianism focuses on building good habits of character",
+                "d": "Act utilitarianism prioritizes the outcomes or consequences of actions over inherent moral rules and duties, while rule utilitarianism involves absolute moral rules that apply in all situations"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The difference between act utilitarianism and rule utilitarianism is discussed under the 'Utilitarianism' section."
+    },
+    {
+        "question": "What is the main idea behind ethical relativism?",
+        "options": [
+            {
+                "a": "There are no universal moral norms and right and wrong are relative to your society",
+                "b": "The end result of an action is the sole determining factor of its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Ethical relativism is discussed under the 'Ethical Relativism' section."
+    },
+    {
+        "question": "What is the main idea behind the theory of divine command?",
+        "options": [
+            {
+                "a": "God determines what is moral or immoral, and human beings should follow divine commands",
+                "b": "The end result of an action is the sole determining factor of its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The theory of divine command is discussed under the 'Religious Ethics' section."
+    },
+    {
+        "question": "What is the main idea behind the ethics of justice?",
+        "options": [
+            {
+                "a": "Individuals should be treated fairly and equitably, and basic rights and freedoms should be protected",
+                "b": "The end result of an action is the sole determining factor of its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The ethics of justice are discussed under the 'Ethics of Justice' section."
+    },
+    {
+        "question": "What is the main idea behind the ethics of caring, according to Nodding?",
+        "options": [
+            {
+                "a": "Caring is the only inherent good, and it is morally acceptable to only care for a small number of people",
+                "b": "The end result of an action is the sole determining factor of its morality",
+                "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "d": "Every person's happiness should be counted evenly"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Caring is the only inherent good"
+    },
+    {
+        "question": "What are the two broad types of privacy?",
+        "options": [
+            {
+                "a": "Behavioral privacy and Informational privacy",
+                "b": "Online privacy and Offline privacy",
+                "c": "Social privacy and Legal privacy",
+                "d": "Economic privacy and Political privacy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The first line in the notes states that there are two broad types of privacy: Behavioral privacy and Informational privacy."
+    },
+    {
+        "question": "What is Behavioral Privacy?",
+        "options": [
+            {
+                "a": "The right to make intimate personal decisions",
+                "b": "A claim that the extent of information regarding people, groups, or institutions communicated to others is limited",
+                "c": "The extent to which personal data is collected without the person's knowledge",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Behavioral privacy is the right to make intimate personal decisions, such as those related to abortion or contraception."
+    },
+    {
+        "question": "What is Informational Privacy?",
+        "options": [
+            {
+                "a": "A claim that the extent of information regarding people, groups, or institutions communicated to others is limited",
+                "b": "The right to make intimate personal decisions",
+                "c": "The extent to which personal data is collected without the person's knowledge",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Informational privacy is a claim that the extent of information regarding people, groups, or institutions communicated to others is limited."
+    },
+    {
+        "question": "What is an example of personal data being collected without a person's knowledge?",
+        "options": [
+            {
+                "a": "Cookies",
+                "b": "Birth date",
+                "c": "Address",
+                "d": "Phone number"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Personal data is collected without a person's knowledge through means such as cookies, satellite/drone surveillance, caller ID, loyalty cards, and more."
+    },
+    {
+        "question": "What is differential privacy?",
+        "options": [
+            {
+                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
+                "b": "The idea that all data should be public",
+                "c": "A system that ensures the anonymity of all users",
+                "d": "The practice of only collecting necessary information"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Differential privacy refers to the database mechanism being differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database."
+    },
+    {
+        "question": "What is the impact of computer technologies on privacy?",
+        "options": [
+            {
+                "a": "Invisibility/Ubiquity of data gathering, Ease of secondary use, Linking together data records, Use in profiling, Use in monitoring",
+                "b": "Privacy is a right",
+                "c": "Differential Privacy",
+                "d": "Old Tech Solutions for Privacy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes: Computer technologies have made it easier to gather data invisibly and ubiquitously, and to use it for secondary purposes such as data mining and profiling. They have also made it easier to link together different data records, and to use the data for monitoring purposes."
+    },
+    {
+        "question": "What is the utilitarian argument against privacy?",
+        "options": [
+            {
+                "a": "Why care if you didn't break the law, Most people don't value privacy highly, The information is valuable",
+                "b": "Privacy is an individual good",
+                "c": "Privacy as a Social Good",
+                "d": "Differential Privacy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes: The utilitarian argument against privacy is that most people don't value it highly, that the information is valuable, and that if you didn't break the law, you shouldn't care."
+    },
+    {
+        "question": "What is the utilitarian argument for privacy?",
+        "options": [
+            {
+                "a": "Privacy is an individual good, Enhances intimacy and trust in human relationships, Allows people to control the nature of relationships",
+                "b": "Why care if you didn't break the law",
+                "c": "Privacy as a Social Good",
+                "d": "Differential Privacy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes: The utilitarian argument for privacy is that it is an individual good, that it enhances intimacy and trust in human relationships, and that it allows people to control the nature of their relationships."
+    },
+    {
+        "question": "What is differential privacy?",
+        "options": [
+            {
+                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
+                "b": "Anonymity of data and agents",
+                "c": "Old Tech Solutions for Privacy",
+                "d": "Dampens effect on autonomy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes: Differential privacy is the property of a database mechanism that ensures that the presence or absence of one individual in the database is not likely to affect the answers given to a set of queries on the database."
+    }
+]
