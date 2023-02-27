@@ -9,7 +9,7 @@
                 "d": "None of the above"
             }
         ],
-        "answer": "c",
+        "answer": "a",
         "answer_note": "The difference between normative and descriptive statements is discussed under the 'Ethics' section."
     },
     {
@@ -81,10 +81,10 @@
         "question": "According to Carol Gilligan, what is a problem with Kohlberg's moral development theory?",
         "options": [
             {
-                "a": "It is male-centered and ignores ethics of caring",
                 "b": "It focuses too much on cultural relativism",
                 "c": "It is too focused on deontological ethics",
-                "d": "It relies too heavily on consequentialist theories"
+                "d": "It relies too heavily on consequentialist theories",
+                "a": "It is male-centered and ignores ethics of caring"
             }
         ],
         "answer": "a",
@@ -94,8 +94,8 @@
         "question": "What is the veil of ignorance in Rawls' theory of justice?",
         "options": [
             {
-                "a": "A state in which individuals should not know what individual characteristics they would have in the society they're planning",
                 "b": "A state in which individuals should know what individual characteristics they would have in the society they're planning",
+                "a": "A state in which individuals should not know what individual characteristics they would have in the society they're planning",
                 "c": "A state in which individuals should only care about their own interests",
                 "d": "A state in which individuals should ignore moral principles and duties"
             }
@@ -107,9 +107,9 @@
         "question": "What is the difference between act utilitarianism and rule utilitarianism?",
         "options": [
             {
-                "a": "Act utilitarianism determines action by action what is moral by tallying up pain or happiness, while rule utilitarianism determines if a rule provides more happiness than pain",
                 "b": "Act utilitarianism determines if a rule provides more happiness than pain, while rule utilitarianism determines action by action what is moral by tallying up pain or happiness",
                 "c": "Act utilitarianism emphasizes the inherent value and dignity of human beings, while rule utilitarianism focuses on building good habits of character",
+                "a": "Act utilitarianism determines action by action what is moral by tallying up pain or happiness, while rule utilitarianism determines if a rule provides more happiness than pain",
                 "d": "Act utilitarianism prioritizes the outcomes or consequences of actions over inherent moral rules and duties, while rule utilitarianism involves absolute moral rules that apply in all situations"
             }
         ],
@@ -120,9 +120,9 @@
         "question": "What is the main idea behind ethical relativism?",
         "options": [
             {
-                "a": "There are no universal moral norms and right and wrong are relative to your society",
                 "b": "The end result of an action is the sole determining factor of its morality",
                 "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
+                "a": "There are no universal moral norms and right and wrong are relative to your society",
                 "d": "Every person's happiness should be counted evenly"
             }
         ],
@@ -146,8 +146,8 @@
         "question": "What is the main idea behind the ethics of justice?",
         "options": [
             {
-                "a": "Individuals should be treated fairly and equitably, and basic rights and freedoms should be protected",
                 "b": "The end result of an action is the sole determining factor of its morality",
+                "a": "Individuals should be treated fairly and equitably, and basic rights and freedoms should be protected",
                 "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
                 "d": "Every person's happiness should be counted evenly"
             }
@@ -159,10 +159,10 @@
         "question": "What is the main idea behind the ethics of caring, according to Nodding?",
         "options": [
             {
-                "a": "Caring is the only inherent good, and it is morally acceptable to only care for a small number of people",
                 "b": "The end result of an action is the sole determining factor of its morality",
                 "c": "Moral principles and duties must be followed, regardless of the outcomes of actions",
-                "d": "Every person's happiness should be counted evenly"
+                "d": "Every person's happiness should be counted evenly",
+                "a": "Caring is the only inherent good, and it is morally acceptable to only care for a small number of people"
             }
         ],
         "answer": "a",
@@ -172,9 +172,9 @@
         "question": "What are the two broad types of privacy?",
         "options": [
             {
-                "a": "Behavioral privacy and Informational privacy",
                 "b": "Online privacy and Offline privacy",
                 "c": "Social privacy and Legal privacy",
+                "a": "Behavioral privacy and Informational privacy",
                 "d": "Economic privacy and Political privacy"
             }
         ],
@@ -185,10 +185,10 @@
         "question": "What is Behavioral Privacy?",
         "options": [
             {
-                "a": "The right to make intimate personal decisions",
                 "b": "A claim that the extent of information regarding people, groups, or institutions communicated to others is limited",
                 "c": "The extent to which personal data is collected without the person's knowledge",
-                "d": "None of the above"
+                "d": "None of the above",
+                "a": "The right to make intimate personal decisions"
             }
         ],
         "answer": "a",
@@ -211,9 +211,9 @@
         "question": "What is an example of personal data being collected without a person's knowledge?",
         "options": [
             {
-                "a": "Cookies",
                 "b": "Birth date",
                 "c": "Address",
+                "a": "Cookies",
                 "d": "Phone number"
             }
         ],
@@ -224,8 +224,8 @@
         "question": "What is differential privacy?",
         "options": [
             {
-                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
                 "b": "The idea that all data should be public",
+                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
                 "c": "A system that ensures the anonymity of all users",
                 "d": "The practice of only collecting necessary information"
             }
@@ -237,8 +237,8 @@
         "question": "What is the impact of computer technologies on privacy?",
         "options": [
             {
-                "a": "Invisibility/Ubiquity of data gathering, Ease of secondary use, Linking together data records, Use in profiling, Use in monitoring",
                 "b": "Privacy is a right",
+                "a": "Invisibility/Ubiquity of data gathering, Ease of secondary use, Linking together data records, Use in profiling, Use in monitoring",
                 "c": "Differential Privacy",
                 "d": "Old Tech Solutions for Privacy"
             }
@@ -263,9 +263,9 @@
         "question": "What is the utilitarian argument for privacy?",
         "options": [
             {
-                "a": "Privacy is an individual good, Enhances intimacy and trust in human relationships, Allows people to control the nature of relationships",
                 "b": "Why care if you didn't break the law",
                 "c": "Privacy as a Social Good",
+                "a": "Privacy is an individual good, Enhances intimacy and trust in human relationships, Allows people to control the nature of relationships",
                 "d": "Differential Privacy"
             }
         ],
