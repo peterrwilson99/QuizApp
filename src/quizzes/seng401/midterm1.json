@@ -169,6 +169,214 @@
         "answer_note": "Caring is the only inherent good"
     },
     {
+        "question": "Which of the following is an example of an intangible creative work?",
+        "options": [
+            {
+                "b": "A sculpture in a museum",
+                "c": "A car in a parking lot",
+                "a": "A book on a bookshelf",
+                "d": "A flower in a garden"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Intangible Creative work' section."
+    },
+    {
+        "question": "What is the difference between copyright and patent?",
+        "options": [
+            {
+                "b": "Copyright is an idea, while patent is an expression.",
+                "c": "Copyright and patent are the same thing.",
+                "a": "Copyright is an expression, while patent is an idea.",
+                "d": "Copyright protects tangible works, while patent protects intangible works."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Copyright vs Patent' section."
+    },
+    {
+        "question": "Which of the following is an example of a copyrighted work?",
+        "options": [
+            {
+                "b": "A chair",
+                "c": "A banana",
+                "a": "A novel",
+                "d": "A brick"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Examples of Copyrighted work' section."
+    },
+    {
+        "question": "What is the duration of a patent?",
+        "options": [
+            {
+                "a": "20 years from the date filed",
+                "b": "10 years from the date filed",
+                "c": "Indefinitely",
+                "d": "Until the patent holder dies"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Patents' section."
+    },
+    {
+        "question": "What is a trademark?",
+        "options": [
+            {
+                "b": "A type of patent that protects ideas",
+                "c": "A type of contract that protects trade secrets",
+                "d": "A type of copyright that protects music",
+                "a": "A legally registered word, phrase, or symbol that identifies a particular product, service, or company"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Trademark' section."
+    },
+    {
+        "question": "Which of the following is a requirement for trade secrecy?",
+        "options": [
+            {
+                "b": "Nonobviousness",
+                "c": "Utility",
+                "a": "Involvement of effort in development and effort to keep secret",
+                "d": "Novelty"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Trade secrecy' section."
+    },
+    {
+        "question": "What is Fair Dealing in Canada?",
+        "options": [
+            {
+                "b": "A type of contract that allows the use of trade secrets",
+                "a": "A set of guidelines for determining whether the use of copyrighted material is legal",
+                "c": "A type of patent that protects intangible works",
+                "d": "A type of trademark that protects a company's name"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Fair Dealing (Canada): Six Factors' section."
+    },
+    {
+        "question": "What is the purpose of Fair Dealing in Canada?",
+        "options": [
+            {
+                "a": "To balance the interests of copyright owners with those of the public",
+                "b": "To protect trade secrets",
+                "c": "To prevent patent infringement",
+                "d": "To regulate trademarks"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Fair Dealing (Canada): Six Factors' section."
+    },
+    {
+        "question": "According to Locke's labor theory of property, who has a right to the crops grown by a laborer?",
+        "options": [
+            {
+                "a": "The laborer who put effort into growing the crops",
+                "b": "The landowner where the crops were grown",
+                "c": "The government",
+                "d": "The first person who sees the crops"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Deontological: Natural rights argument for property rights' section."
+    },
+    {
+        "question": "What is the duration of trademark protection?",
+        "options": [
+            {
+                "b": "20 years from the date filed",
+                "a": "10 years but renewable indefinitely",
+                "c": "Indefinitely",
+                "d": "Until the trademark owner dies"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Trademark' section."
+    },
+    {
+        "question": "Which of the following is NOT a type of protection for intellectual property?",
+        "options": [
+            {
+                "a": "Copyright",
+                "b": "Trade Secrecy",
+                "c": "Antitrust Law",
+                "d": "Patent"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "This is discussed under the 'Protection of IP comes from' section."
+    },
+    {
+        "question": "What are the three requirements for a patent to be granted?",
+        "options": [
+            {
+                "b": "Utility, novelty, and popularity",
+                "c": "Usefulness, originality, and creativity",
+                "a": "Utility, novelty, and nonobviousness",
+                "d": "Usefulness, originality, and marketability"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Patents' section."
+    },
+    {
+        "question": "Which of the following is NOT an exclusive right granted by copyright?",
+        "options": [
+            {
+                "a": "The right to make copies of the work",
+                "b": "The right to produce derivative works (translations)",
+                "c": "The right to publicly perform the work",
+                "d": "The right to sell the work"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "This is discussed under the 'Copyright Rights' section."
+    },
+    {
+        "question": "What is the purpose of the US Constitution's provision for promoting the progress of science and useful arts?",
+        "options": [
+            {
+                "a": "To encourage innovation and creativity by granting limited exclusivity to authors and inventors",
+                "b": "To restrict access to intellectual property",
+                "c": "To prevent competition between authors and inventors",
+                "d": "To provide funding for scientific and artistic endeavors"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'US Consitituion: Utilarian View' section."
+    },
+    {
+        "question": "Which of the following is a requirement for trade secrecy?",
+        "options": [
+            {
+                "a": "Involvement of effort in development and effort to keep secret",
+                "b": "Nonobviousness",
+                "c": "Utility",
+                "d": "Novelty"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Trade secrecy' section."
+    },
+    {
+        "question": "What is the difference between copyright and patent?",
+        "options": [
+            {
+                "a": "Copyright is an expression, while patent is an idea.",
+                "b": "Copyright is an idea, while patent is an expression.",
+                "c": "Copyright and patent are the same thing.",
+                "d": "Copyright protects tangible works, while patent protects intangible works."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is discussed under the 'Copyright vs Patent' section."
+    },
+    {
         "question": "What are the two broad types of privacy?",
         "options": [
             {
@@ -284,5 +492,395 @@
         ],
         "answer": "a",
         "answer_note": "Notes: Differential privacy is the property of a database mechanism that ensures that the presence or absence of one individual in the database is not likely to affect the answers given to a set of queries on the database."
+    },
+    {
+        "question": "What are the sources of laws in Canada regarding privacy?",
+        "options": [
+            {
+                "a": "Treaties, Canadian Constitution, Statutes, Judge-made (case based) common law",
+                "b": "Trade secrecy, Patent, Copyright, Contracts, Criminal Law",
+                "c": "Tort law, Contract law, Criminal law, Constitutional limits on government powers",
+                "d": "Privacy Act, Fair Information Practice (FIP), Personal Information Protection and Electronic Documents Act (PIPEDA), Organization For Economic Co-operation and Development (OECD)"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Sources of Laws in Canada"
+    },
+    {
+        "question": "According to Dworkin, how does the decision as to which legal rule applies depend?",
+        "options": [
+            {
+                "a": "Legal principles",
+                "b": "Treaties",
+                "c": "Patents",
+                "d": "Trade secrecy"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "What is the Law - The Rule of Law"
+    },
+    {
+        "question": "What is the Warren Brandeis Question?",
+        "options": [
+            {
+                "a": "Is privacy a right?",
+                "b": "What is the purpose of copyright protection?",
+                "c": "What is the right to be left alone?",
+                "d": "What is the meaning of life?"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Warren Brandeis Question"
+    },
+    {
+        "question": "What are the four US common law privacy torts according to Warren and Brandeis?",
+        "options": [
+            {
+                "a": "Intrusion upon plaintiff's seclusion or solitude or his private affairs, public disclosure of embarrassing private facts, publicity which places the plaintiff in a false light in the public eye, appropriation for the defendant's advantage of the plaintiff's name or likeness",
+                "b": "Slander, libel, defamation, trespassing",
+                "c": "Copyright infringement, breach of contract, nuisance, invasion of privacy",
+                "d": "Purpose specification, collection limitation, security safeguards, data quality"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Warren and Brandeis"
+    },
+    {
+        "question": "What are the six factors of Fair Dealing in Canada?",
+        "options": [
+            {
+                "a": "Purpose of dealing, character of the dealing, amount of the dealing, alternatives to the dealing, nature of the work, effect of dealing the work",
+                "b": "Notice/awareness, access/participation, choice/consent, integrity/security, enforcement/redress, openness",
+                "c": "Collection limitation, data quality, use limitation, security safeguards, openness, individual participation",
+                "d": "Intrusion upon plaintiff's seclusion or solitude or his private affairs, public disclosure of embarrassing private facts, publicity which places the plaintiff in a false light in the public eye, appropriation for the defendant's advantage of the plaintiff's name or likeness"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Fair Dealing (Canada)"
+    },
+    {
+        "question": "What are the 4 US common law Privacy Torts?",
+        "options": [
+            {
+                "a": "Intrusion upon plaintiffs seclusion or solitude or his private affairs, public disclosure of embarrassing private facts, publicity which places the plaintiff in a false light in the public eye, appropriation for the defendant's advantage of the plaintiff's name or likeness.",
+                "b": "Defamation, copyright infringement, trespassing, breach of contract.",
+                "c": "Libel, slander, invasion of privacy, nuisance.",
+                "d": "Misappropriation, bad faith, personal exploitation, privacy invasion."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "These are the 4 US common law Privacy Torts that Warren and Brandeis discuss in their article."
+    },
+    {
+        "question": "What are the 8 principles of privacy protection established by the OECD?",
+        "options": [
+            {
+                "a": "Collection limitation, data quality, purpose specification, use limitation, security safeguards, openness, individual participation, accountability.",
+                "b": "Notice/awareness, access/participation, choice/consent, integrity/security, enforcement/redress.",
+                "c": "Consent is required, businesses have to limit collection use and disclosure, right to see information the business holds, increased fines up to $10 million and 3% of an organization's global gross revenues in the previous year.",
+                "d": "None of the above."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "These 8 principles are established by the OECD for privacy protection."
+    },
+    {
+        "question": "What is the purpose of the Personal Information Protection and Electronic Documents Act (PIPEDA)?",
+        "options": [
+            {
+                "a": "To apply to businesses which now have new responsibilities, require consent for data use and disclosure, and limit collection use and disclosure to appropriate purposes.",
+                "b": "To cover collection, retention, and disposal of personal information by government departments, and protect personal information.",
+                "c": "To allow employers to keep work product info on employees without their consent.",
+                "d": "None of the above."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is the purpose of PIPEDA."
+    },
+    {
+        "question": "What is the Warren Brandeis question?",
+        "options": [
+            {
+                "a": "Is privacy a right?",
+                "b": "Is copyright a right?",
+                "c": "Is patent law constitutional?",
+                "d": "Is trademark infringement a tort?"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "This is the question that Warren and Brandeis explore in their article."
+    },
+    {
+        "question": "What are the sources of law in Canada?",
+        "options": [
+            {
+                "a": "Treaties, Canadian Constitution, statutes, judge-made (case-based) common law.",
+                "b": "Contracts, criminal law, constitutional limits on government powers.",
+                "c": "Invasion of privacy, tort law, defamation, nuisance.",
+                "d": "None of the above."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "These are the sources of law in Canada."
+    },
+    {
+        "question": "What is hacktivism?",
+        "options": [
+            {
+                "a": "The use of technical expertise to promote a political cause",
+                "b": "The use of technology to create addictive applications",
+                "c": "The use of technology to evade regulations",
+                "d": "The intentional promotion of biases in machine learning algorithms"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Hacktivism refers to the use of technical expertise to promote a political cause."
+    },
+    {
+        "question": "What is the CFAA?",
+        "options": [
+            {
+                "a": "A law that punishes anyone who accesses a computer without authorization",
+                "b": "A law that punishes anyone who exceeds authorized access on a protected computer",
+                "c": "A law that criminalizes explicit threats to cause damage to a computer",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "The Computer Fraud and Abuse Act (CFAA) punishes anyone who accesses a computer without authorization, exceeds authorized access on a protected computer, or explicitly threatens to cause damage to a computer."
+    },
+    {
+        "question": "What is the purpose of the Fairness, Accountability and Transparency (FAT) movement?",
+        "options": [
+            {
+                "a": "To ensure that algorithmic decisions do not create discriminatory or unjust impacts",
+                "b": "To ensure that computers and algorithms are always reliable and safe",
+                "c": "To promote the use of biased machine learning algorithms",
+                "d": "To regulate the use of high-tech advancements"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The purpose of the Fairness, Accountability and Transparency (FAT) movement is to ensure that algorithmic decisions do not create discriminatory or unjust impacts."
+    },
+    {
+        "question": "What is the AIDA Bill C-27 AI and Data Act?",
+        "options": [
+            {
+                "a": "A bill that regulates AI systems outside of privacy legislation in Canada",
+                "b": "A bill that regulates international and interprovincial trade and commerce in AI systems in Canada",
+                "c": "A bill that prohibits certain conduct in relation to AI systems that may result in serious harm to individuals",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "The AIDA Bill C-27 AI and Data Act is Canada's first effort to regulate AI systems outside of privacy legislation. It aims to regulate international and interprovincial trade and commerce in AI systems by establishing common requirements applicable across Canada for the design, development, and use of those systems. It also prohibits certain conduct in relation to AI systems that may result in serious harm to individuals or harm to their interests."
+    },
+    {
+        "question": "What is the 'Colour of right' in Canadian criminal law?",
+        "options": [
+            {
+                "a": "A belief that the act is lawful, even if that belief is based on ignorance or mistake of fact or law",
+                "b": "The notion of criminal intent or moral turpitude",
+                "c": "A definition of technology-as-instrument cybercrime",
+                "d": "An indictable offence related to computer service under section 342.1(1) of the Canadian Criminal Code"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "'Colour of right' refers to a belief that the act is lawful, even if that belief is based"
+    },
+    {
+        "question": "What is the purpose of the Fairness, Accountability, and Transparency (FAT) movement?",
+        "options": [
+            {
+                "a": "To ensure that algorithmic decisions create discriminatory or unjust impacts",
+                "b": "To advocate for explainability, auditability, responsibility, and accuracy in machine learning algorithms",
+                "c": "To promote biased decision-making in machine learning algorithms",
+                "d": "To prevent the use of machine learning algorithms in industry"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The FAT movement advocates for explainability, auditability, responsibility, and accuracy in machine learning algorithms."
+    },
+    {
+        "question": "What is the Computer Fraud and Abuse Act (CFAA)?",
+        "options": [
+            {
+                "a": "A law that made it a crime to access, alter, damage, or destroy information on a computer without authorization",
+                "b": "A proposed law that aimed to remove criminal liability for violation of service agreements",
+                "c": "A law that made it legal to hack into computers for political purposes",
+                "d": "A law that aimed to regulate international and interprovincial trade and commerce in AI systems"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The Computer Fraud and Abuse Act (CFAA) made it a crime to access, alter, damage, or destroy information on a computer without authorization."
+    },
+    {
+        "question": "What is hacktivism?",
+        "options": [
+            {
+                "a": "The use of technical expertise to promote a political cause",
+                "b": "The intentional promotion of addiction through technology",
+                "c": "The act of defacing websites for financial gain",
+                "d": "The use of machine learning algorithms to perpetuate inequality"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Hacktivism refers to the use of technical expertise to promote a political cause."
+    },
+    {
+        "question": "What is the purpose of the AIDA Bill C-27 AI and Data Act?",
+        "options": [
+            {
+                "a": "To remove criminal liability for violation of service agreements",
+                "b": "To regulate international and interprovincial trade and commerce in AI systems",
+                "c": "To promote the use of biased decision-making in machine learning algorithms",
+                "d": "To prevent the use of AI systems outside of privacy legislation"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The AIDA Bill C-27 AI and Data Act aims to regulate international and interprovincial trade and commerce in AI systems by establishing common requirements applicable across Canada for the design, development, and use of those systems."
+    },
+    {
+        "question": "What is the purpose of the Center for Humane Technology?",
+        "options": [
+            {
+                "a": "To promote the use of technology in daily life",
+                "b": "To educate people about the dangers of technology",
+                "c": "To advocate for unlimited use of social media",
+                "d": "To build more advanced AI systems"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The Center for Humane Technology aims to challenge the companies they helped build and educate people about the dangers of technology, including the depression that can come from heavy use of social media."
+    },
+    {
+        "question": "What is the utilitarian perspective on freedom of expression?",
+        "options": [
+            {
+                "a": "Silenced opinions may turn out to be true",
+                "b": "Speech should be restricted when it causes harm",
+                "c": "Freedom of expression is an intrinsic value",
+                "d": "Offensive speech should be restricted"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes on Freedom of expression - Utilitarian Perspective"
+    },
+    {
+        "question": "What is the harm principle in ethical purpose for restricting speech?",
+        "options": [
+            {
+                "a": "Speech should be restricted when it causes harm",
+                "b": "Offensive speech should be restricted",
+                "c": "Freedom of expression is an intrinsic value",
+                "d": "Silenced opinions may turn out to be true"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Notes on Ethical Purpose for Restricting speech"
+    },
+    {
+        "question": "Which of the following is not a constitutional protection related to speech?",
+        "options": [
+            {
+                "a": "Freedom of the press",
+                "b": "Freedom of association",
+                "c": "Offensive speech",
+                "d": "Freedom of peaceful assembly"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Notes on Constitional Protections"
+    },
+    {
+        "question": "Which of the following is an example of offensive speech?",
+        "options": [
+            {
+                "a": "Political or religious speech",
+                "b": "Abortion information",
+                "c": "Alcohol advertisements",
+                "d": "All of the above"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Notes on Offensive Speech"
+    },
+    {
+        "question": "What is the purpose of the Charter of Rights and Freedoms regarding speech?",
+        "options": [
+            {
+                "a": "To restrict offensive speech",
+                "b": "To protect the freedom of the press",
+                "c": "To protect freedom of conscience and religion",
+                "d": "To protect property rights"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Notes on Constitional Protections"
+    },
+    {
+        "question": "What is the harm principle in relation to restricting speech?",
+        "options": [
+            {
+                "a": "Speech should only be restricted when it causes physical harm to others.",
+                "b": "Speech should be restricted whenever it offends or upsets someone.",
+                "c": "Speech should be restricted whenever it spreads false information.",
+                "d": "Speech should never be restricted, regardless of its content."
+            }
+        ],
+        "answer": "a",
+        "answer_note": "The harm principle suggests that speech should only be restricted when it causes harm to others."
+    },
+    {
+        "question": "Which document includes protections for freedom of speech in Canada?",
+        "options": [
+            {
+                "a": "The United States Constitution",
+                "b": "The Magna Carta",
+                "c": "The Canadian Charter of Rights and Freedoms",
+                "d": "The Universal Declaration of Human Rights"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "The Canadian Charter of Rights and Freedoms includes protections for freedom of speech."
+    },
+    {
+        "question": "What is the offense principle in relation to restricting speech?",
+        "options": [
+            {
+                "a": "Speech should only be restricted when it causes physical harm to others.",
+                "b": "Speech should be restricted whenever it offends or upsets someone.",
+                "c": "Speech should be restricted whenever it spreads false information.",
+                "d": "Speech should never be restricted, regardless of its content."
+            }
+        ],
+        "answer": "b",
+        "answer_note": "The offense principle suggests that speech should be restricted whenever it offends or upsets someone."
+    },
+    {
+        "question": "Which of the following types of speech is generally considered offensive?",
+        "options": [
+            {
+                "a": "Political or religious speech",
+                "b": "Academic discourse",
+                "c": "Neutral factual statements",
+                "d": "Sexual or racial slurs"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Sexual or racial slurs are generally considered to be offensive speech."
+    },
+    {
+        "question": "What is the purpose of restricting speech from a utilitarian perspective?",
+        "options": [
+            {
+                "a": "To protect individual rights and freedoms",
+                "b": "To promote social stability and harmony",
+                "c": "To prevent harm to others",
+                "d": "To protect the truth and advance knowledge"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From a utilitarian perspective, the purpose of restricting speech is to promote social stability and harmony."
     }
 ]
