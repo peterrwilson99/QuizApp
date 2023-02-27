@@ -484,9 +484,9 @@
         "question": "What is differential privacy?",
         "options": [
             {
-                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
                 "b": "Anonymity of data and agents",
                 "c": "Old Tech Solutions for Privacy",
+                "a": "The database mechanism is differentially private if the presence or absence of one individual is not likely to affect the answers given to a set of queries on the database",
                 "d": "Dampens effect on autonomy"
             }
         ],
@@ -497,9 +497,9 @@
         "question": "What are the sources of laws in Canada regarding privacy?",
         "options": [
             {
-                "a": "Treaties, Canadian Constitution, Statutes, Judge-made (case based) common law",
                 "b": "Trade secrecy, Patent, Copyright, Contracts, Criminal Law",
                 "c": "Tort law, Contract law, Criminal law, Constitutional limits on government powers",
+                "a": "Treaties, Canadian Constitution, Statutes, Judge-made (case based) common law",
                 "d": "Privacy Act, Fair Information Practice (FIP), Personal Information Protection and Electronic Documents Act (PIPEDA), Organization For Economic Co-operation and Development (OECD)"
             }
         ],
@@ -510,8 +510,8 @@
         "question": "According to Dworkin, how does the decision as to which legal rule applies depend?",
         "options": [
             {
-                "a": "Legal principles",
                 "b": "Treaties",
+                "a": "Legal principles",
                 "c": "Patents",
                 "d": "Trade secrecy"
             }
@@ -523,8 +523,8 @@
         "question": "What is the Warren Brandeis Question?",
         "options": [
             {
-                "a": "Is privacy a right?",
                 "b": "What is the purpose of copyright protection?",
+                "a": "Is privacy a right?",
                 "c": "What is the right to be left alone?",
                 "d": "What is the meaning of life?"
             }
@@ -549,10 +549,10 @@
         "question": "What are the six factors of Fair Dealing in Canada?",
         "options": [
             {
-                "a": "Purpose of dealing, character of the dealing, amount of the dealing, alternatives to the dealing, nature of the work, effect of dealing the work",
                 "b": "Notice/awareness, access/participation, choice/consent, integrity/security, enforcement/redress, openness",
                 "c": "Collection limitation, data quality, use limitation, security safeguards, openness, individual participation",
-                "d": "Intrusion upon plaintiff's seclusion or solitude or his private affairs, public disclosure of embarrassing private facts, publicity which places the plaintiff in a false light in the public eye, appropriation for the defendant's advantage of the plaintiff's name or likeness"
+                "d": "Intrusion upon plaintiff's seclusion or solitude or his private affairs, public disclosure of embarrassing private facts, publicity which places the plaintiff in a false light in the public eye, appropriation for the defendant's advantage of the plaintiff's name or likeness",
+                "a": "Purpose of dealing, character of the dealing, amount of the dealing, alternatives to the dealing, nature of the work, effect of dealing the work"
             }
         ],
         "answer": "a",
@@ -588,8 +588,8 @@
         "question": "What is the purpose of the Personal Information Protection and Electronic Documents Act (PIPEDA)?",
         "options": [
             {
-                "a": "To apply to businesses which now have new responsibilities, require consent for data use and disclosure, and limit collection use and disclosure to appropriate purposes.",
                 "b": "To cover collection, retention, and disposal of personal information by government departments, and protect personal information.",
+                "a": "To apply to businesses which now have new responsibilities, require consent for data use and disclosure, and limit collection use and disclosure to appropriate purposes.",
                 "c": "To allow employers to keep work product info on employees without their consent.",
                 "d": "None of the above."
             }
@@ -601,9 +601,9 @@
         "question": "What is the Warren Brandeis question?",
         "options": [
             {
-                "a": "Is privacy a right?",
                 "b": "Is copyright a right?",
                 "c": "Is patent law constitutional?",
+                "a": "Is privacy a right?",
                 "d": "Is trademark infringement a tort?"
             }
         ],
