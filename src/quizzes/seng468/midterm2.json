@@ -908,5 +908,304 @@
         ],
         "answer": "c",
         "answer_note": "Redis Pipelines-Speed up Redis"
+    },
+    {
+        "question": "What is Apache Kafka used for in software engineering?",
+        "options": [
+            {
+                "a": "To build user interfaces",
+                "b": "To handle large amounts of data",
+                "c": "To manage databases",
+                "d": "To perform automated testing"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Apache Kafka is a distributed streaming platform' section"
+    },
+    {
+        "question": "What is the publish-subscribe messaging model used in Kafka?",
+        "options": [
+            {
+                "a": "Data is produced and consumed by the same process",
+                "b": "Data is produced and consumed by different processes",
+                "c": "Data is produced and consumed by different clusters",
+                "d": "Data is produced and consumed by different topics"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka operates on a publish-subscribe messaging model' section"
+    },
+    {
+        "question": "What are Kafka topics used for?",
+        "options": [
+            {
+                "a": "To store data on a single node",
+                "b": "To organize and partition data streams",
+                "c": "To replicate data across the cluster",
+                "d": "To handle data integration"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka topics are used to organize and partition data streams' section"
+    },
+    {
+        "question": "What is a Kafka broker?",
+        "options": [
+            {
+                "a": "A producer that generates data to be consumed",
+                "b": "A consumer that consumes data from a topic",
+                "c": "A node that makes up the Kafka cluster",
+                "d": "A tool that allows for the integration of Kafka with other systems"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Kafka brokers are the nodes that make up the Kafka cluster' section"
+    },
+    {
+        "question": "What is Kafka Connect used for?",
+        "options": [
+            {
+                "a": "To handle large amounts of data",
+                "b": "To integrate Kafka with other systems",
+                "c": "To process and analyze data in real-time",
+                "d": "To produce and consume data"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka Connect is a tool that allows for the integration of Kafka with other systems' section"
+    },
+    {
+        "question": "What is the Kafka Streams library used for?",
+        "options": [
+            {
+                "a": "To store and replicate data across the cluster",
+                "b": "To handle data integration",
+                "c": "To consume data from multiple topics in parallel",
+                "d": "To process and analyze data in real-time"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Under 'Kafka Streams is a library that allows for the processing of data in real-time' section"
+    },
+    {
+        "question": "What is a replication factor used for in Kafka?",
+        "options": [
+            {
+                "a": "To replicate data across multiple clusters",
+                "b": "To ensure data availability and fault tolerance",
+                "c": "To organize and partition data streams",
+                "d": "To integrate Kafka with other systems"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka uses a replication factor to ensure data availability and fault tolerance' section"
+    },
+    {
+        "question": "What is the purpose of a Kafka consumer group?",
+        "options": [
+            {
+                "a": "To produce data to be consumed",
+                "b": "To consume data from multiple topics in parallel",
+                "c": "To replicate data across the cluster",
+                "d": "To integrate Kafka with other systems"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka also supports the use of consumer groups' section"
+    },
+    {
+        "question": "What are some of the APIs provided by Kafka?",
+        "options": [
+            {
+                "a": "The Kafka Topics API and the Kafka Subscriptions API",
+                "b": "The Kafka Producer API and the Kafka Consumer API",
+                "c": "The Kafka Serialization API and the Kafka Deserialization API",
+                "d": "The Kafka Scaling API and the Kafka Performance API"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka provides a number of APIs for interacting with the platform' section"
+    },
+    {
+        "question": "What are some of the serialization formats supported by Kafka?",
+        "options": [
+            {
+                "a": "XML, CSV, and YAML",
+                "b": "JSON, Avro, and Protobuf",
+                "c": "HTML, CSS, and JavaScript",
+                "d": "SQL, NoSQL, and NewSQL"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka supports a number of different serialization formats' section"
+    },
+    {
+        "question": "What industries commonly use Kafka for real-time data processing?",
+        "options": [
+            {
+                "a": "Transportation, education, and hospitality",
+                "b": "Energy, manufacturing, and telecommunications",
+                "c": "Finance, healthcare, and e-commerce",
+                "d": "Government, non-profit, and entertainment"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Kafka is widely used in a variety of industries' section"
+    },
+    {
+        "question": "What is the performance of Kafka in terms of message throughput?",
+        "options": [
+            {
+                "a": "Hundreds of messages per second",
+                "b": "Thousands of messages per second",
+                "c": "Millions of messages per second",
+                "d": "Billions of messages per second"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Kafka is highly performant and can handle millions of messages per second' section"
+    },
+    {
+        "question": "What is the main advantage of using Kafka for data processing?",
+        "options": [
+            {
+                "a": "It provides a simple and easy-to-use interface",
+                "b": "It allows for real-time processing and analysis",
+                "c": "It is optimized for batch processing",
+                "d": "It is more cost-effective than other data processing solutions"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Apache Kafka is a distributed streaming platform' section"
+    },
+    {
+        "question": "What are some of the benefits of using Kafka topics?",
+        "options": [
+            {
+                "a": "They allow for parallel processing and scalability",
+                "b": "They make data more secure and encrypted",
+                "c": "They are optimized for high availability and low latency",
+                "d": "They enable data to be stored and queried with SQL-like syntax"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Kafka topics are used to organize and partition data streams into different categories' section"
+    },
+    {
+        "question": "What is a consumer lag in Kafka?",
+        "options": [
+            {
+                "a": "The amount of time it takes for data to be produced by a publisher",
+                "b": "The delay between data being produced and consumed by a subscriber",
+                "c": "The number of consumers subscribed to a topic",
+                "d": "The total number of messages produced by a publisher"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka also supports the use of consumer groups' section"
+    },
+    {
+        "question": "What is the difference between a Kafka producer and a Kafka consumer?",
+        "options": [
+            {
+                "a": "A producer writes data to a topic, while a consumer reads data from a topic",
+                "b": "A producer reads data from a topic, while a consumer writes data to a topic",
+                "c": "A producer is a node in the Kafka cluster, while a consumer is a tool for data integration",
+                "d": "A producer is responsible for data replication, while a consumer is responsible for data partitioning"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Kafka provides a number of APIs for interacting with the platform' section"
+    },
+    {
+        "question": "What is the difference between Kafka Connect and Kafka Streams?",
+        "options": [
+            {
+                "a": "Kafka Connect is used for real-time data processing, while Kafka Streams is used for data integration",
+                "b": "Kafka Connect is used for data integration, while Kafka Streams is used for real-time data processing",
+                "c": "Kafka Connect is optimized for batch processing, while Kafka Streams is optimized for stream processing",
+                "d": "Kafka Connect is used for data replication, while Kafka Streams is used for data serialization"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Kafka Connect is a tool that allows for the integration of Kafka with other systems' and 'Kafka Streams is a library that allows for the processing of data in real-time' sections"
+    },
+    {
+        "question": "What is essential for effective communication in distributed systems?",
+        "options": [
+            {
+                "a": "Tightly Coupled Services",
+                "b": "Orchestration",
+                "c": "Choreography",
+                "d": "Software Organization"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Under 'Communication between Microservices' section"
+    },
+    {
+        "question": "Which communication model can lead to brittle applications and is difficult to scale?",
+        "options": [
+            {
+                "a": "Tightly Coupled",
+                "b": "Orchestration",
+                "c": "Choreography",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Managing Independence and Control' section"
+    },
+    {
+        "question": "In which communication model does a centralized orchestration layer hold all coordinated logic?",
+        "options": [
+            {
+                "a": "Tightly Coupled",
+                "b": "Orchestration",
+                "c": "Choreography",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Orchestration' section"
+    },
+    {
+        "question": "Which communication model provides the best balance between independence and interaction?",
+        "options": [
+            {
+                "a": "Tightly Coupled",
+                "b": "Orchestration",
+                "c": "Choreography",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Choreography' section"
+    },
+    {
+        "question": "What is a tradeoff of using orchestration for communication between microservices?",
+        "options": [
+            {
+                "a": "No single point of failure",
+                "b": "Leverages asynchronous processing",
+                "c": "Orchestrator is a single point of failure",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Orchestration' section"
+    },
+    {
+        "question": "In the choreography model, how do microservices communicate?",
+        "options": [
+            {
+                "a": "Direct calls",
+                "b": "Centralized orchestrator",
+                "c": "Event-based architecture",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Choreography' section"
     }
 ]
