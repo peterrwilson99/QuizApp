@@ -1,46 +1,108 @@
-# Next.js example
+# Quiz App
 
-## How to use
+## ChatGPT Prompt with questions
+1. First input the following prompt
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
-
-<!-- #default-branch-switch -->
-
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
+I am preparing for a midterm and I am wanting you to create multiple choice questions related to the notes I provide you with that are likely to appear on a university midterm for this content. I would like you to return these questions in a specific JSON format so I can input it into a quiz application I have built. The json format necessary is as follows:
+```json
+[
+    {
+        "question": "This is where the question prompt will be",
+        "options": [
+            {
+                "a": "Possible Answer 1",
+                "b": "Possible Answer 2",
+                "c": "Possible Answer 3",
+                "d": "Possible Answer 4"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Note on where this questions origins are in the notes, ex. 'Section 5'"
+    },
+    {
+        "question": "This is where another question prompt will be",
+        "options": [
+            {
+                "a": "Possible Answer 1",
+                "b": "Possible Answer 2",
+                "c": "Possible Answer 3",
+                "d": "Possible Answer 4"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Note on where this questions origins are in the notes, ex. 'Section 5'"
+    }
+]
 ```
 
-Install it and run:
+So for example. If I provide you with the following input
 
-```sh
-npm install
-npm run dev
+'
+Please provide 2 questions on the following notes
+
+```md
+# Days of the week
+- Monday
+    - First day of the week
+    - Least favourite day of the week
+- Tuesday
+    - Second day of the week
+- Wednesday
+    - Third day of the week
+    - Known as hump day
+- Thursday
+    - Fourth day of the week
+    - Close to Friday
+- Friday
+    - Fifth day of the week
+    - Start of the weekend
+- Saturday
+    - Sixth day of the week
+    - Best day of the week
+- Sunday
+    - Seventh day of the week
+    - Last day of weekend
 ```
 
-or:
+`
 
-<!-- #default-branch-switch -->
+A proper return would be
+'
+```json
+[
+    {
+        "question": "What is considered the least favourite day of the week?",
+        "options": [
+            {
+                "a": "Monday",
+                "b": "Wednesday",
+                "c": "Thursday",
+                "d": "Saturday"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Days of the week' section"
+    },
+    {
+        "question": "Which is the fifth day of the week?",
+        "options": [
+            {
+                "a": "Monday",
+                "b": "Tuesday",
+                "c": "Friday",
+                "d": "Thursday"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Days of the week' section"
+    }
+]
+```
+'
+Please provide me with 6 questions in the form described above (in JSON source code list containing all 6 questions) from the following notes:
+'
+- Then paste your notes
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/nextjs)
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/nextjs)
-
-## The idea behind the example
-
-The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
-If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
-
-## The link component
-
-Next.js has [a custom Link component](https://nextjs.org/docs/api-reference/next/link).
-The example folder provides adapters for usage with MUI.
-More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+2. If you want, then input
+- 'Please generate 6 more questions in the exact same response format as your previous resonse, but generate questions distinct from your previous response.' 

@@ -1,22 +1,7 @@
 import React from 'react'
 import Container from '@mui/material/Container';
 import { Button, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
-
-const courses = [
-  {
-    code: "SENG 468",
-    title: "Software Scalability",
-    term: "Spring 2023",
-    link: "/seng468",
-  },
-  {
-    code: "SENG 460",
-    title: "Security and Privacy Information",
-    term: "Spring 2023",
-    link: "/seng460",
-  },
-]
-
+import QuizTable from '../src/components/QuizTable';
 
 export default function Index() {
   const theme = useTheme();
@@ -45,35 +30,7 @@ export default function Index() {
         </Typography>
       </Container>
       <Container maxWidth="lg">
-        <div className="flex justify-evenly">
-          {courses.map((course) => {
-            return (
-              <Paper elevation={4} sx={{borderRadius: 5, width: "400px"}} >
-                <div className='p-4'>
-                  <Typography
-                    variant="h5"
-                    gutterBottom
-                  >
-                    {course.title}
-                  </Typography>
-                  <div className="flex justify-between">
-                    <Button
-                      variant="outlined"
-                      href={course.link}>
-                        {course.code}
-                    </Button>
-                    <Typography
-                      variant="subtitle2"
-                      gutterBottom
-                    >
-                      {course.term}
-                    </Typography>
-                  </div>
-                </div>
-              </Paper>
-            )
-          })}
-        </div>
+        <QuizTable />
       </Container>
     </main>
   );

@@ -1,0 +1,912 @@
+[
+    {
+        "question": "What is load balancing?",
+        "options": [
+            {
+                "a": "Efficiently distributing incoming network traffic across a group of backend servers",
+                "b": "Distributing network traffic across a group of frontend servers",
+                "c": "Sending all network traffic to a single backend server",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Load Balancing Basics' section"
+    },
+    {
+        "question": "What happens if a single server goes down?",
+        "options": [
+            {
+                "a": "The load balancer redirects traffic to the offline server",
+                "b": "The load balancer does nothing",
+                "c": "The load balancer redirects traffic to the remaining online servers",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Load Balancing Basics' section"
+    },
+    {
+        "question": "What is the difference between hardware and software load balancers?",
+        "options": [
+            {
+                "a": "Hardware load balancers are more flexible than software load balancers",
+                "b": "Software load balancers can fully replace load balancing hardware while delivering analogous functionality and superior flexibility",
+                "c": "Hardware load balancers are cheaper than software load balancers",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Hardware vs software based load balancers' section"
+    },
+    {
+        "question": "What is client-side load balancing?",
+        "options": [
+            {
+                "a": "Load balancing performed by a dedicated load balancer server or a cluster of load balancer servers",
+                "b": "Load balancing performed by the client application or the client device itself",
+                "c": "Load balancing that happens between layers four to seven of the OSI model",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Client side load balancing' section"
+    },
+    {
+        "question": "What is the Round Robin load balancing algorithm?",
+        "options": [
+            {
+                "a": "An algorithm used to distribute client requests equally across a group of servers",
+                "b": "An algorithm that distributes client requests to servers based on CPU and RAM",
+                "c": "An algorithm that randomly distributes client requests to servers",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Round Robin load balancing algorithm' section"
+    },
+    {
+        "question": "What is the main advantage of choosing server-side load balancing?",
+        "options": [
+            {
+                "a": "It provides a central point of control for managing traffic",
+                "b": "It is cheaper than client-side load balancing",
+                "c": "It requires less configuration than client-side load balancing",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Server side load balancing' section"
+    },
+    {
+        "question": "What is the difference between Layer 4 and Layer 7 load balancing?",
+        "options": [
+            {
+                "a": "Layer 4 load balancing operates at the high level application layer, which is responsible for the actual content of the message",
+                "b": "Layer 7 load balancing is ideal for simple packet level load balancing",
+                "c": "Layer 4 load balancing makes routing decisions based on the contents of the message",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Layer 4 Load balancing' and 'Layer 7 Load balancing' sections"
+    },
+    {
+        "question": "What is a forward proxy?",
+        "options": [
+            {
+                "a": "A server that sits between a client and one or more servers",
+                "b": "A server that sits between a client and the internet",
+                "c": "A load balancer that routes requests to servers based on a set of predefined algorithms",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Under 'Forward Proxy' section"
+    },
+    {
+        "question": "What is the Sticky Session method used for in load balancing?",
+        "options": [
+            {
+                "a": "To identify requests coming from the same client and to always send those requests to the same physical server",
+                "b": "To distribute the traffic across multiple servers",
+                "c": "To terminate SSL connections on the load balancer instead of on the backend servers",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Stateful vs Stateless Load Balancing' section"
+    },
+    {
+        "question": "What is the purpose of load balancer health checks?",
+        "options": [
+            {
+                "a": "To ensure that servers are listening and available to serve requests",
+                "b": "To increase the amount of traffic a server can handle",
+                "c": "To encrypt network traffic between the client and the server",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Load balancer health checks' section"
+    },
+    {
+        "question": "What is the difference between active and passive health checks?",
+        "options": [
+            {
+                "a": "Active health checks employ real-time performance statistics to show you what the end user actually sees",
+                "b": "Passive health checks periodically send a request to each registered target to check its status",
+                "c": "Active health checks generate predictive data in order to warn about potential failures of the system",
+                "d": "None of the above"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Under 'Load balancer health checks' section"
+    },
+    {
+        "question": "Which type of load balancer uses TCP and can be used for things other than load balancing?",
+        "options": [
+            {
+                "a": "Hardware based",
+                "b": "Software based",
+                "c": "HAProxy",
+                "d": "NGINX"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Under 'Software load balancers - HAProxy vs NGINX' section"
+    },
+    {
+        "question": "What is the main advantage of server-side load balancing over client-side load balancing?",
+        "options": [
+            {
+                "a": "It provides a central point of control for managing traffic",
+                "b": "It allows for better control over which server to send requests to",
+                "c": "It is faster than client-side load balancing",
+                "d": "It is more scalable than client-side load balancing"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Client vs. Server side load balancing' section"
+    },
+    {
+        "question": "What is the difference between forward proxy and reverse proxy?",
+        "options": [
+            {
+                "a": "Forward proxy sits between a client and one or more servers, while reverse proxy sits between a client and the internet",
+                "b": "Forward proxy is used to load balance traffic across multiple servers, while reverse proxy is used to access the internet anonymously",
+                "c": "Forward proxy is used to mask your IP address and encrypt your traffic, while reverse proxy is used to cache web content",
+                "d": "Forward proxy is used when you want to cache web content, while reverse proxy is used to reduce processing overhead on your servers"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Forward Proxy' and 'Reverse Proxy' sections"
+    },
+    {
+        "question": "What is sticky session?",
+        "options": [
+            {
+                "a": "The method that makes it possible for the load balancer to identify requests coming from the same client and to always send those requests to the same physical server",
+                "b": "A load balancing algorithm that determines which server to send the request to based on factors such as server availability, latency, and server load",
+                "c": "The act of registering backend servers with a service discovery infrastructure",
+                "d": "A load balancing method that does not keep track of any session information"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Sticky Session' section"
+    },
+    {
+        "question": "What is the main difference between Layer 4 and Layer 7 load balancing?",
+        "options": [
+            {
+                "a": "Layer 4 operates at the transport layer while Layer 7 operates at the application layer",
+                "b": "Layer 4 can cache while Layer 7 cannot",
+                "c": "Layer 4 offers smart routing based on the URL while Layer 7 provides caching",
+                "d": "Layer 4 terminates the network traffic and reads the message within while Layer 7 does not"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Under 'Layer 4 Load balancing' and 'Layer 7 Load balancing' sections"
+    },
+    {
+        "question": "What is the main difference between static and dynamic weighted round robin?",
+        "options": [
+            {
+                "a": "Static uses a fixed weight, while dynamic assigns weight based on real-time data",
+                "b": "Static assigns weight based on real-time data, while dynamic uses a fixed weight",
+                "c": "Static considers server capacity, while dynamic does not",
+                "d": "Dynamic considers server capacity, while static does not"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Static weighted round robin and Dynamic weighted round robin sections"
+    },
+    {
+        "question": "What is the primary consideration in the Least Connections load balancing algorithm?",
+        "options": [
+            {
+                "a": "Server capacity",
+                "b": "Server processing power",
+                "c": "Number of current connections each server has",
+                "d": "Weights assigned to each server"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Least Connections Load balancing algorithm section"
+    },
+    {
+        "question": "In which situation would the Random load balancing algorithm be most appropriate?",
+        "options": [
+            {
+                "a": "Multiple servers with varying processing power",
+                "b": "Maintaining session affinity",
+                "c": "Multiple servers with similar configurations",
+                "d": "Distributing requests based on active connections"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Random load balancing algorithm section"
+    },
+    {
+        "question": "What is the main advantage of using the Hash load balancing algorithm?",
+        "options": [
+            {
+                "a": "Maintaining session affinity",
+                "b": "Distributing requests evenly across servers",
+                "c": "Considering server capacity",
+                "d": "Taking into account active connections"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Hash Load Balancing Algorithm section"
+    },
+    {
+        "question": "What method in load balancing uses the client and server IP address to generate a hash key?",
+        "options": [
+            {
+                "a": "URL Hash Method",
+                "b": "IP Hash Method",
+                "c": "Consistent Hashing",
+                "d": "Least Response Time Method"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "IP Hash Method section"
+    },
+    {
+        "question": "What is the primary difference between an Active-Active and an Active-Passive High Availability Cluster?",
+        "options": [
+            {
+                "a": "Active-Active has two online servers, while Active-Passive has one online and one offline server",
+                "b": "Active-Active has one online and one offline server, while Active-Passive has two online servers",
+                "c": "Active-Active uses random load balancing, while Active-Passive uses hashing",
+                "d": "Active-Active uses hashing, while Active-Passive uses random load balancing"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Active-Active and Active-Passive High Availability Cluster sections"
+    },
+    {
+        "question": "Which load balancing algorithm assigns more requests to the server with a higher capability of handling greater load?",
+        "options": [
+            {
+                "a": "Weighted Round Robin",
+                "b": "Least Connections",
+                "c": "Random",
+                "d": "Hash"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Weighted Round Robin section"
+    },
+    {
+        "question": "What factor is considered by the Weighted Least Connections algorithm in addition to the number of active connections?",
+        "options": [
+            {
+                "a": "Server processing capacity",
+                "b": "Weights assigned to each server",
+                "c": "Response time",
+                "d": "Random number generation"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Weighted Least Connections section"
+    },
+    {
+        "question": "In which load balancing method are requests with the same URL sent to the same server?",
+        "options": [
+            {
+                "a": "URL Hash Method",
+                "b": "IP Hash Method",
+                "c": "Consistent Hashing",
+                "d": "Least Response Time Method"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "URL Hash Method section"
+    },
+    {
+        "question": "What is the main advantage of using consistent hashing in a load balancing algorithm?",
+        "options": [
+            {
+                "a": "Maintaining session affinity",
+                "b": "Flexibility in adding or removing servers",
+                "c": "Considering server capacity",
+                "d": "Taking into account active connections"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Consistent Hashing algorithm section"
+    },
+    {
+        "question": "Which method of load balancing chooses a server based on the shortest response time?",
+        "options": [
+            {
+                "a": "Least Connections",
+                "b": "Least Response Time Method",
+                "c": "Weighted Round Robin",
+                "d": "Random"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Least Response Time Method section"
+    },
+    {
+        "question": "Which method is more accurate in maintaining a client request to a single server: affinity or persistence?",
+        "options": [
+            {
+                "a": "Affinity",
+                "b": "Persistence",
+                "c": "Both are equally accurate",
+                "d": "Neither is accurate"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Affinity/Persistence/Sticky Sessions section"
+    },
+    {
+        "question": "What is the key difference between an Active-Active and Active-Passive High Availability Cluster?",
+        "options": [
+            {
+                "a": "The number of online servers",
+                "b": "Load balancing algorithms",
+                "c": "Geographical distribution",
+                "d": "Hashing methods"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Active-Active and Active-Passive High Availability Cluster sections"
+    },
+    {
+        "question": "In an Active-Passive High Availability Cluster, what happens when the primary server goes down?",
+        "options": [
+            {
+                "a": "Both servers go offline",
+                "b": "The secondary server takes over",
+                "c": "The primary server restarts",
+                "d": "Clients are disconnected"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Active-Passive High Availability Cluster section"
+    },
+    {
+        "question": "Which load balancing algorithm is suitable for clusters with nodes of similar configurations?",
+        "options": [
+            {
+                "a": "Weighted Round Robin",
+                "b": "Least Connections",
+                "c": "Random",
+                "d": "Hash"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Random load balancing algorithm section"
+    },
+    {
+        "question": "What is the main advantage of using the IP Hash Method in load balancing?",
+        "options": [
+            {
+                "a": "Even distribution of requests",
+                "b": "Sticky sessions",
+                "c": "Considering server capacity",
+                "d": "Shortest response time"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "IP Hash Method section"
+    },
+    {
+        "question": "Which load balancing algorithm maintains session affinity by using a requestId?",
+        "options": [
+            {
+                "a": "Weighted Round Robin",
+                "b": "Least Connections",
+                "c": "Consistent Hashing",
+                "d": "Hash"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Hash Load Balancing Algorithm section"
+    },
+    {
+        "question": "Global Server Load Balancing (GSLB) is typically used to route traffic between which types of servers?",
+        "options": [
+            {
+                "a": "Servers in a single data center",
+                "b": "Geographically dispersed servers",
+                "c": "Servers with the same processing power",
+                "d": "Servers with identical configurations"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Global Server Load Balancing (GSLB) section"
+    },
+    {
+        "question": "What is the primary purpose of a CPU cache?",
+        "options": [
+            {
+                "a": "To increase the size of main memory",
+                "b": "To reduce the average cost to access data from the main memory",
+                "c": "To store data permanently",
+                "d": "To provide additional storage for the operating system"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'CPU Cache' section"
+    },
+    {
+        "question": "What is the main advantage of browser caching?",
+        "options": [
+            {
+                "a": "It reduces server load",
+                "b": "It stores user data securely",
+                "c": "It speeds up webpage load times",
+                "d": "It enhances user privacy"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From 'Browser cache' section"
+    },
+    {
+        "question": "What is the main difference between page caching and object caching?",
+        "options": [
+            {
+                "a": "Page caching stores entire web pages, while object caching stores database query results",
+                "b": "Page caching is faster than object caching",
+                "c": "Page caching is suitable for dynamic content, while object caching is for static content",
+                "d": "Object caching is always preferred over page caching"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "From 'Page and object caching' section"
+    },
+    {
+        "question": "What is a primary purpose of a Content Delivery Network (CDN) Cache?",
+        "options": [
+            {
+                "a": "To store dynamic content exclusively",
+                "b": "To store only user-specific data",
+                "c": "To improve database performance",
+                "d": "To store static, cached content and resources"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'Content Delivery Network Cache' section"
+    },
+    {
+        "question": "What is the main benefit of caching in load balancers?",
+        "options": [
+            {
+                "a": "It prevents the load balancer from being a single point of failure",
+                "b": "It reduces load on the web server and improves response times",
+                "c": "It reduces the amount of data stored in main memory",
+                "d": "It eliminates the need for load balancing"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'Caching in Load Balancers' section"
+    },
+    {
+        "question": "Which caching strategy introduces a delay in writing data from the cache to the database?",
+        "options": [
+            {
+                "a": "Cache Aside Caching Strategy",
+                "b": "Read through Caching strategy",
+                "c": "Write through caching strategy",
+                "d": "Write Back caching strategy"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'Write Back caching strategy' section"
+    },
+    {
+        "question": "In a cache performance metric, what does the hit ratio represent?",
+        "options": [
+            {
+                "a": "The percentage of cache misses",
+                "b": "The percentage of cache hits",
+                "c": "The ratio of cache hits to cache misses",
+                "d": "The ratio of cache misses to cache hits"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'Cache performance metrics' section"
+    },
+    {
+        "question": "What is the primary benefit of DNS caching?",
+        "options": [
+            {
+                "a": "Increased security and isolation from databases",
+                "b": "Faster response for DNS queries for recently visited domain names",
+                "c": "Improved website performance",
+                "d": "Reduced load on the web server"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'DNS caching' section"
+    },
+    {
+        "question": "What is one of the main advantages of database caching?",
+        "options": [
+            {
+                "a": "It enables real-time data synchronization",
+                "b": "It eliminates the need for a database",
+                "c": "It reduces the need for frequent database queries",
+                "d": "It guarantees data consistency"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From 'Database caching' section"
+    },
+    {
+        "question": "Which caching strategy does the cache sit between the application and the database, and every write from the application must go through the cache then to the database?",
+        "options": [
+            {
+                "a": "Cache Aside Caching Strategy",
+                "b": "Read through Caching strategy",
+                "c": "Write through caching strategy",
+                "d": "Write Back caching strategy"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From 'Write through caching strategy' section"
+    },
+    {
+        "question": "Which caching strategy is best suited for read-heavy workloads with the same data being requested many times?",
+        "options": [
+            {
+                "a": "Cache Aside Caching Strategy",
+                "b": "Read through Caching strategy",
+                "c": "Write through caching strategy",
+                "d": "Write Back caching strategy"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'Read through Caching strategy' section"
+    },
+    {
+        "question": "What is one way to reduce cache miss penalty?",
+        "options": [
+            {
+                "a": "Increase cache capacity",
+                "b": "Improve cache strategy",
+                "c": "Use faster networks",
+                "d": "Use multilevel cache"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'To reduce miss penalty' section"
+    },
+    {
+        "question": "What is the primary purpose of a Content Delivery Network (CDN) Cache?",
+        "options": [
+            {
+                "a": "To store dynamic content and resources",
+                "b": "To store static, cached content and resources in different geographical areas",
+                "c": "To replace the need for a database",
+                "d": "To store only text-based content"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'Content Delivery Network Cache' section"
+    },
+    {
+        "question": "What is the main advantage of using cache aside caching strategy?",
+        "options": [
+            {
+                "a": "It is best suited for write-heavy workloads",
+                "b": "It guarantees data consistency",
+                "c": "It works best for read-heavy workloads",
+                "d": "If the cache cluster goes down, the system can still operate by going directly to the database"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'Cache Aside Caching Strategy' section"
+    },
+    {
+        "question": "Which caching strategy introduces write latency but ensures data consistency when paired with read-through caching?",
+        "options": [
+            {
+                "a": "Cache Aside Caching Strategy",
+                "b": "Read through Caching strategy",
+                "c": "Write through caching strategy",
+                "d": "Write Back caching strategy"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "From 'Write through caching strategy' section"
+    },
+    {
+        "question": "Which caching strategy improves write performance but may lead to data loss in case of cache failure?",
+        "options": [
+            {
+                "a": "Cache Aside Caching Strategy",
+                "b": "Read through Caching strategy",
+                "c": "Write through caching strategy",
+                "d": "Write Back caching strategy"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'Write Back caching strategy' section"
+    },
+    {
+        "question": "What is the ideal hit ratio for most sites?",
+        "options": [
+            {
+                "a": "70-80%",
+                "b": "80-90%",
+                "c": "90-95%",
+                "d": "95-99%"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "From 'Cache performance metrics' section"
+    },
+    {
+        "question": "Which type of caching involves storing database query results to serve them from the cache without having to query the database again?",
+        "options": [
+            {
+                "a": "Page caching",
+                "b": "Object caching",
+                "c": "Browser caching",
+                "d": "Server caching"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "From 'Page and object caching' section"
+    },
+    {
+        "question": "In which caching strategy does the application write directly to the database?",
+        "options": [
+            {
+                "a": "Write Around",
+                "b": "Cache Aside",
+                "c": "Read Through",
+                "d": "Write Through"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Write Around caching strategy"
+    },
+    {
+        "question": "Which cache eviction policy evicts the earliest added data entries in the cache?",
+        "options": [
+            {
+                "a": "First in first out (FIFO)",
+                "b": "Last in first out (LIFO)",
+                "c": "Least recently used (LRU)",
+                "d": "Most recently used (MRU)"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Eviction Policies"
+    },
+    {
+        "question": "What is a disadvantage of in-memory caching?",
+        "options": [
+            {
+                "a": "Limited capacity",
+                "b": "Data loss if the server restarts or crashes",
+                "c": "High load on the application",
+                "d": "Not suitable for large applications"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "In memory cache"
+    },
+    {
+        "question": "In a distributed cache, what happens if a server restarts or crashes?",
+        "options": [
+            {
+                "a": "Data is lost",
+                "b": "Cache is invalidated",
+                "c": "Data is not lost",
+                "d": "Cache coherency is compromised"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Distributed Cache"
+    },
+    {
+        "question": "Which cache invalidation method removes content from the proxy server immediately?",
+        "options": [
+            {
+                "a": "Purge",
+                "b": "Refresh",
+                "c": "Ban",
+                "d": "Clear"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Invalidation Methods"
+    },
+    {
+        "question": "What is the main difference between Redis replication and Redis sharding?",
+        "options": [
+            {
+                "a": "Replication is for read-only queries, while sharding is for read and write queries",
+                "b": "Replication increases read throughput, while sharding increases overall capacity",
+                "c": "Replication involves creating exact copies, while sharding involves splitting the database into smaller partitions",
+                "d": "Replication is only for high availability, while sharding is only for increasing capacity"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Redis Replication vs. Redis Shards"
+    },
+    {
+        "question": "Which caching strategy should be used when data is written once and read less frequently or never?",
+        "options": [
+            {
+                "a": "Write Around",
+                "b": "Cache Aside",
+                "c": "Read Through",
+                "d": "Write Through"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Write Around caching strategy"
+    },
+    {
+        "question": "What is the main purpose of cache line eviction?",
+        "options": [
+            {
+                "a": "To improve cache performance",
+                "b": "To reduce cache misses",
+                "c": "To create space for new entries",
+                "d": "To invalidate stale data"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Eviction reduce cache misses"
+    },
+    {
+        "question": "In which cache eviction policy does a cache hit require moving the hit item to the head of the queue?",
+        "options": [
+            {
+                "a": "First in first out (FIFO)",
+                "b": "Last in first out (LIFO)",
+                "c": "Least recently used (LRU)",
+                "d": "Most recently used (MRU)"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Least recently used (LRU)"
+    },
+    {
+        "question": "What is the purpose of sticky sessions in in-memory caching?",
+        "options": [
+            {
+                "a": "To ensure high availability",
+                "b": "To maintain cache coherency",
+                "c": "To improve cache performance",
+                "d": "To ensure one session always goes to one specific server"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Sticky sessions are used in In Memory Caching"
+    },
+    {
+        "question": "Which of the following is NOT an alternative to cache invalidation?",
+        "options": [
+            {
+                "a": "Expire cached content quickly by reducing its time to live (TTL)",
+                "b": "Validate the freshness of cache content at every request",
+                "c": "Do not cache volatile content at all",
+                "d": "Increase cache capacity indefinitely"
+            }
+        ],
+        "answer": "d",
+        "answer_note": "Alternatives to cache invalidation"
+    },
+    {
+        "question": "Which of the following is an advantage of Redis over MongoDB?",
+        "options": [
+            {
+                "a": "Better scalability",
+                "b": "Easier to learn syntax",
+                "c": "Faster database operations",
+                "d": "Flexible database design"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Redis vs. MongoDB"
+    },
+    {
+        "question": "Which of the following cache eviction policies is ideal when systems tend to access the same subset of data very frequently?",
+        "options": [
+            {
+                "a": "First in first out (FIFO)",
+                "b": "Last in first out (LIFO)",
+                "c": "Least recently used (LRU)",
+                "d": "Most recently used (MRU)"
+            }
+        ],
+        "answer": "b",
+        "answer_note": "Last in first out (LIFO)"
+    },
+    {
+        "question": "Which of the following is a disadvantage of in-memory caching?",
+        "options": [
+            {
+                "a": "Decreased cache performance",
+                "b": "Limited cache capacity",
+                "c": "Data loss if the server restarts or crashes",
+                "d": "Inefficient cache invalidation"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Disadvantage of in memory cache"
+    },
+    {
+        "question": "What is the primary difference between Redis Replication and Redis Sharding?",
+        "options": [
+            {
+                "a": "Redis Replication creates exact copies of a Redis instance, while Redis Sharding splits a large Redis database into smaller partitions",
+                "b": "Redis Sharding creates exact copies of a Redis instance, while Redis Replication splits a large Redis database into smaller partitions",
+                "c": "Redis Replication focuses on increasing read throughput, while Redis Sharding focuses on maintaining cache coherency",
+                "d": "Redis Sharding focuses on increasing read throughput, while Redis Replication focuses on maintaining cache coherency"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Redis Replication vs. Redis Shards"
+    },
+    {
+        "question": "Which of the following invalidation methods removes content from the proxy server immediately?",
+        "options": [
+            {
+                "a": "Purge",
+                "b": "Refresh",
+                "c": "Ban",
+                "d": "Clear"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Invalidation Methods - Purge"
+    },
+    {
+        "question": "In Redis Cluster Architecture, what role does a slave node have?",
+        "options": [
+            {
+                "a": "Replicating a specific master node",
+                "b": "Handling all read/write requests for their slots",
+                "c": "Communicating directly with clients for read operations",
+                "d": "Managing cache eviction policies"
+            }
+        ],
+        "answer": "a",
+        "answer_note": "Redis Cluster Architecture"
+    },
+    {
+        "question": "What is the main advantage of using Redis Pipelines?",
+        "options": [
+            {
+                "a": "Ensuring atomic operations",
+                "b": "Reducing cache misses",
+                "c": "Improving performance by executing multiple commands in a single round trip",
+                "d": "Simplifying cache management"
+            }
+        ],
+        "answer": "c",
+        "answer_note": "Redis Pipelines-Speed up Redis"
+    }
+]

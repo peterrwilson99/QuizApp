@@ -19,7 +19,7 @@ function Navigation() {
                     </ButtonBase>
                 </Box>
                 <nav>
-                    <ButtonBase
+                    {/* <ButtonBase
                         href="/seng401"
                         sx={{ my: 1, mx: 1.5 }}
                     >
@@ -36,7 +36,7 @@ function Navigation() {
                         sx={{ my: 1, mx: 1.5 }}
                     >
                         <Typography className="font-medium" color='text' >SENG 468</Typography>
-                    </ButtonBase>
+                    </ButtonBase> */}
                 </nav>
             </Toolbar>
         </AppBar>
