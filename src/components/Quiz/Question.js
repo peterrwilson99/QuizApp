@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import questions from "./questions.json"
 import { Box, Button, FormControl, FormControlLabel, Paper, Radio, RadioGroup, Typography } from "@mui/material";
 
 function Question(props) {

@@ -16,7 +16,7 @@ const QuizFeedback = ({ questions, questionResponses, score }) => {
                     variant="h4"
                     gutterBottom
                 >
-                    {(score/questions.length)*100}%
+                    {((score/questions.length)*100).toFixed(2)}%
                 </Typography>
             </div>
             <Typography

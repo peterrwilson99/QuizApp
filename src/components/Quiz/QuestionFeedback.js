@@ -33,15 +33,26 @@ const QuestionFeedback = ({ question, response, questionNumber }) => {
                             />
                             :
                             <FormControlLabel
-                                key={key}
-                                value={key}
-                                control={<Checkbox checked={false} />}
+                            key={key}
+                            value={key}
+                            control={<Checkbox checked={false} />}
                                 label={question.options[0][key]}
-                            />
+                                />
                 )
             })}
             </RadioGroup>
         </FormControl>
+        {!isCorrect ?
+            <Typography
+                variant="p"
+                className="text-l italic font-semi-bold mb-8"
+                display={"block"}
+            >
+                Question Origin/Answer Note: {question.answer_note}
+            </Typography>
+            :
+            <></>
+        }
     </Box>
 )
 };

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { visuallyHidden } from "@mui/utils";
-import { Button, InputAdornment, TextField, Box, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow, TableSortLabel, Toolbar, Typography, Paper } from "@mui/material";
+import { Button, InputAdornment, TextField, Box, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow, TableSortLabel, Toolbar, Typography, Paper, useMediaQuery, useTheme } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import { Quizzies } from "../quizzes/Quizzes";
 
@@ -25,30 +25,37 @@ const headCells = [
     id: "course",
     numeric: false,
     disablePadding: true,
+    hideOnMobile: false,
     label: "Course",
   },
   {
     id: "quiz",
     numeric: true,
     disablePadding: false,
+    hideOnMobile: false,
     label: "Quiz",
   },
   {
     id: "questions",
     numeric: true,
     disablePadding: false,
+    hideOnMobile: true,
     label: "# Questions",
   },
   {
     id: "view",
     numeric: true,
     disablePadding: false,
+    hideOnMobile: false,
     label: "View",
   },
 ];
 
 function EnhancedTableHead(props) {
   const { order, orderBy, onRequestSort } = props;
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"))
+  
   const createSortHandler = (property) => (event) => {
     onRequestSort(event, property);
   };
@@ -57,6 +64,9 @@ function EnhancedTableHead(props) {
     <TableHead>
       <TableRow>
         {headCells.map((headCell) => (
+          isSmallScreen && headCell.hideOnMobile ?
+          <></>
+          :
           <TableCell
             key={headCell.id}
             align={headCell.numeric ? "right" : "left"}
@@ -90,8 +100,9 @@ export default function QuizTable() {
   const [rawQuizzes, setRawQuizzes] = useState([]);
   const [quizzes, setQuizzes] = useState([]);
   const [searchString, setSearchString] = useState("");
-    console.log("Quizzes.length",quizzes.length)
-    console.log("rawQuizzes.length",rawQuizzes.length)
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"))
+
   useEffect(() => {
     setRawQuizzes(Quizzies);
     setQuizzes(Quizzies);
@@ -117,8 +128,8 @@ export default function QuizTable() {
     const includedQuizzes = [];
     const searchValue = event.target.value;
     setSearchString(searchValue);
-    for(const Course of rawQuizzes){
-      Course.course.toLowerCase().includes(searchValue.toLowerCase()) ? includedQuizzes.push(Course) : null
+    for(const Quiz of rawQuizzes){
+      (Quiz.course.toLowerCase().includes(searchValue.toLowerCase()) || Quiz.quiz.toLowerCase().includes(searchValue.toLowerCase()) ) ? includedQuizzes.push(Quiz) : null
     }
     setQuizzes(includedQuizzes);
   }
@@ -130,26 +141,28 @@ export default function QuizTable() {
   return (
     <Box sx={{ width: "100%" }}>
       <Paper className="p-4">
-        <Toolbar className="flex flex-row justify-between">
+        <div className={isSmallScreen ? "text-center my-3" : "flex flex-row justify-between my-3"}>
           <Typography variant="h6" id="tableTitle" component="div">
             Quizzes
           </Typography>
-          <TextField
-            variant="standard"
-            value={searchString}
-            onChange={handleSearch}
-            InputProps={{
-              startAdornment: (
-                <InputAdornment position="start">
-                  <SearchIcon />
-                </InputAdornment>
-              ),
-            }}
-          />
-        </Toolbar>
+          <div>
+            <TextField
+              variant="standard"
+              value={searchString}
+              onChange={handleSearch}
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <SearchIcon />
+                  </InputAdornment>
+                ),
+              }}
+            />
+          </div>
+        </div>
         <TableContainer>
           <Table
-            sx={{ minWidth: 750 }}
+            sx={isSmallScreen ? {} : { minWidth: 750 }}
             aria-labelledby="tableTitle"
             size="small"
           >
@@ -182,11 +195,15 @@ export default function QuizTable() {
                         >
                         {row.quiz}
                       </TableCell>
-                      <TableCell 
-                        align="right" 
-                        >
-                        {row.questions.length}
-                      </TableCell>
+                      {isSmallScreen ? 
+                        <></>
+                        :
+                        <TableCell 
+                          align="right" 
+                          >
+                          {row.questions.length}
+                        </TableCell>
+                      }
                       <TableCell align="right">
                         <Button variant="outlined" href={"/".concat(row.id)}>View</Button>
                       </TableCell>
@@ -205,15 +222,19 @@ export default function QuizTable() {
             </TableBody>
           </Table>
         </TableContainer>
-        <TablePagination
-          rowsPerPageOptions={[5, 10, 25]}
-          component="div"
-          count={quizzes.length}
-          rowsPerPage={rowsPerPage}
-          page={page}
-          onPageChange={handleChangePage}
-          onRowsPerPageChange={handleChangeRowsPerPage}
-        />
+        {quizzes.length > rowsPerPage ?
+          <TablePagination
+            rowsPerPageOptions={[5, 10, 25]}
+            component="div"
+            count={quizzes.length}
+            rowsPerPage={rowsPerPage}
+            page={page}
+            onPageChange={handleChangePage}
+            onRowsPerPageChange={handleChangeRowsPerPage}
+          />
+          :
+          <></>
+        }
       </Paper>
     </Box>
   );
