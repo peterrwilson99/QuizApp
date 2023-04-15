@@ -2,6 +2,7 @@ import seng401Midterm1 from './seng401/midterm1.json'
 import seng460Midterm1 from './seng460/midterm1.json'
 import seng468Midterm1 from './seng468/midterm1.json'
 import seng468Midterm2 from './seng468/midterm2.json'
+import seng468Final from './seng468/final.json'
 
 export const quizDictionary = {
     "1": {
@@ -27,6 +28,12 @@ export const quizDictionary = {
         course: "SENG468",
         quiz: "Midterm 2",
         questions: seng468Midterm2
+    },
+    "5": {
+        id: "5",
+        course: "SENG468",
+        quiz: "Final Exam",
+        questions: seng468Final
     },
 }
 
